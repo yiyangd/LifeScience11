@@ -9,7 +9,7 @@ const remembered=CourseStore.read().legacy?.cells;
 const state = {cell:'animal',organ:'nucleus',selected:remembered?.selected||{},graded:remembered?.graded||{}};
 const locations = {
  animal:[['nucleus',39,49],['mitochondria',35,18],['golgi',64,25],['rough-er',37,35],['membrane',3,43],['lysosome',65,71],['vacuole',81,48]],
- plant:[['nucleus',19,34],['mitochondria',71,21],['golgi',50,20],['rough-er',30,27],['membrane',5,47],['chloroplast',86,25],['central-vacuole',56,53],['wall',2,60]]
+ plant:[['nucleus',19,34],['mitochondria',71,21],['golgi',50,20],['rough-er',30,27],['membrane',6.2,47],['chloroplast',86,25],['central-vacuole',56,53],['wall',4,60]]
 };
 
 byId('lesson-nav').insertAdjacentHTML('beforeend',data.topics.map(t=>`<a class="nav-link" href="#topic-${t.id}"><span>${num(t.id)}</span>${esc(t.short)}<small lang="en">${esc(t.en)}</small></a>`).join(''));
