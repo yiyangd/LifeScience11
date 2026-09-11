@@ -1,0 +1,27 @@
+{
+  "page": 6,
+  "sourceTitle": "Levels of Organization Notes",
+  "verbatimExtractedText": "Organism: Anything \nliving that is made of \ncells & needs energy, \nexcretes wastes, \ngrows, responds, \nreproduces, & uses \ngases.\n Examples: animals, plants, bacteria, \nfungi, protists, monerans\n",
+  "lifeProcessesVerbatim": [
+    "needs energy",
+    "excretes wastes",
+    "grows",
+    "responds",
+    "reproduces",
+    "uses gases"
+  ],
+  "additionalRequirementVerbatim": "made of cells",
+  "sourceExamplesVerbatim": [
+    "animals",
+    "plants",
+    "bacteria",
+    "fungi",
+    "protists",
+    "monerans"
+  ],
+  "teachingNotes": [
+    "Source uses Monerans, a historical classification term; retain as source vocabulary with clarification rather than presenting as an additional non-overlapping modern group.",
+    "Life processes describe life in general, not requirements that every individual perform every process at every moment.",
+    "The source says uses gases; do not rewrite this as all living things require oxygen."
+  ]
+}

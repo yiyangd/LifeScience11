@@ -1,0 +1,1105 @@
+{
+  "countingRule": "One named learning objective per concept or fact card, with definitions, functions and examples grouped. The Levels unit has eight named levels plus hierarchy and life processes. The Cells unit has 27 fact cards in 10 groups. Related content across the units is cross-referenced; no complete objectives are equivalent, so all 37 remain after deduplication.",
+  "sourceStatus": {
+    "levels": "Verified against supplied 52-page PDF, not an editable original PPT.",
+    "cells": "31-page source PDF/PPT missing; page references inherited from the existing website. Original source completeness cannot be verified."
+  },
+  "knowledge": [
+    {
+      "unit": "levels",
+      "sourcePages": "2",
+      "pointId": "levels-cell",
+      "title": "Cell",
+      "website": "units/levels/index.html#level-cell",
+      "questions": [
+        "levels-cell",
+        "levels-original-c3",
+        "levels-photo-11",
+        "levels-photo-16",
+        "levels-photo-23",
+        "levels-photo-36",
+        "levels-photo-40",
+        "levels-photo-47"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "levels",
+      "sourcePages": "3",
+      "pointId": "levels-tissue",
+      "title": "Tissue",
+      "website": "units/levels/index.html#level-tissue",
+      "questions": [
+        "levels-tissue",
+        "levels-original-c8",
+        "levels-photo-13",
+        "levels-photo-17",
+        "levels-photo-19",
+        "levels-photo-30",
+        "levels-photo-43"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "levels",
+      "sourcePages": "4",
+      "pointId": "levels-organ",
+      "title": "Organ",
+      "website": "units/levels/index.html#level-organ",
+      "questions": [
+        "levels-organ",
+        "levels-original-c2",
+        "levels-original-c8",
+        "levels-photo-14",
+        "levels-photo-22",
+        "levels-photo-24",
+        "levels-photo-25",
+        "levels-photo-27",
+        "levels-photo-32",
+        "levels-photo-33",
+        "levels-photo-34",
+        "levels-photo-35",
+        "levels-photo-39",
+        "levels-photo-46",
+        "levels-photo-49"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "levels",
+      "sourcePages": "5",
+      "pointId": "levels-system",
+      "title": "Organ system",
+      "website": "units/levels/index.html#level-system",
+      "questions": [
+        "levels-system",
+        "levels-original-c4",
+        "levels-photo-12",
+        "levels-photo-20",
+        "levels-photo-28",
+        "levels-photo-31",
+        "levels-photo-37",
+        "levels-photo-41",
+        "levels-photo-45",
+        "levels-photo-48",
+        "levels-photo-51"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "levels",
+      "sourcePages": "6",
+      "pointId": "levels-organism",
+      "title": "Organism",
+      "website": "units/levels/index.html#level-organism",
+      "questions": [
+        "levels-organism",
+        "levels-original-c5",
+        "levels-photo-10",
+        "levels-photo-15",
+        "levels-photo-18",
+        "levels-photo-21",
+        "levels-photo-26",
+        "levels-photo-29",
+        "levels-photo-42",
+        "levels-photo-44",
+        "levels-photo-52"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "levels",
+      "sourcePages": "7",
+      "pointId": "levels-population",
+      "title": "Population",
+      "website": "units/levels/index.html#level-population",
+      "questions": [
+        "levels-population",
+        "levels-original-c5"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "levels",
+      "sourcePages": "8",
+      "pointId": "levels-community",
+      "title": "Community",
+      "website": "units/levels/index.html#level-community",
+      "questions": [
+        "levels-community",
+        "levels-original-c6"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "levels",
+      "sourcePages": "9",
+      "pointId": "levels-ecosystem",
+      "title": "Ecosystem",
+      "website": "units/levels/index.html#level-ecosystem",
+      "questions": [
+        "levels-ecosystem",
+        "levels-original-c7"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "levels",
+      "sourcePages": "1–9",
+      "pointId": "levels-hierarchy",
+      "title": "Structural hierarchy and relationships",
+      "website": "units/levels/index.html#hierarchy",
+      "questions": [
+        "levels-hierarchy",
+        "levels-original-c1"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "levels",
+      "sourcePages": "6",
+      "pointId": "levels-life-processes",
+      "title": "Life processes",
+      "website": "units/levels/index.html#life-processes",
+      "questions": [
+        "levels-life-processes"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "cells",
+      "sourcePages": "2–3",
+      "pointId": "cells-theory",
+      "title": "Cell theory",
+      "website": "units/cells/index.html#fact-theory",
+      "questions": [
+        "cells-theory",
+        "cells-original-1"
+      ],
+      "sourceVerified": false
+    },
+    {
+      "unit": "cells",
+      "sourcePages": "2–3",
+      "pointId": "cells-organization",
+      "title": "Unicellular & multicellular",
+      "website": "units/cells/index.html#fact-organization",
+      "questions": [
+        "cells-organization"
+      ],
+      "sourceVerified": false
+    },
+    {
+      "unit": "cells",
+      "sourcePages": "4–7",
+      "pointId": "cells-prokaryote",
+      "title": "Prokaryotic cell",
+      "website": "units/cells/index.html#fact-prokaryote",
+      "questions": [
+        "cells-prokaryote",
+        "cells-original-2"
+      ],
+      "sourceVerified": false
+    },
+    {
+      "unit": "cells",
+      "sourcePages": "4–7",
+      "pointId": "cells-eukaryote",
+      "title": "Eukaryotic cell",
+      "website": "units/cells/index.html#fact-eukaryote",
+      "questions": [
+        "cells-eukaryote",
+        "cells-original-2"
+      ],
+      "sourceVerified": false
+    },
+    {
+      "unit": "cells",
+      "sourcePages": "4–7",
+      "pointId": "cells-shared",
+      "title": "Four shared components",
+      "website": "units/cells/index.html#fact-shared",
+      "questions": [
+        "cells-shared"
+      ],
+      "sourceVerified": false
+    },
+    {
+      "unit": "cells",
+      "sourcePages": "4–7",
+      "pointId": "cells-organelles",
+      "title": "Organelles",
+      "website": "units/cells/index.html#fact-organelles",
+      "questions": [
+        "cells-organelles"
+      ],
+      "sourceVerified": false
+    },
+    {
+      "unit": "cells",
+      "sourcePages": "10–13",
+      "pointId": "cells-membrane",
+      "title": "Cell / plasma membrane",
+      "website": "units/cells/index.html#fact-membrane",
+      "questions": [
+        "cells-membrane",
+        "cells-original-3"
+      ],
+      "sourceVerified": false
+    },
+    {
+      "unit": "cells",
+      "sourcePages": "10–13",
+      "pointId": "cells-bilayer",
+      "title": "Fluid-mosaic model",
+      "website": "units/cells/index.html#fact-bilayer",
+      "questions": [
+        "cells-bilayer"
+      ],
+      "sourceVerified": false
+    },
+    {
+      "unit": "cells",
+      "sourcePages": "10–13",
+      "pointId": "cells-cytoplasm",
+      "title": "Cytoplasm",
+      "website": "units/cells/index.html#fact-cytoplasm",
+      "questions": [
+        "cells-cytoplasm",
+        "cells-original-3"
+      ],
+      "sourceVerified": false
+    },
+    {
+      "unit": "cells",
+      "sourcePages": "10–13",
+      "pointId": "cells-cytoskeleton",
+      "title": "Cytoskeleton",
+      "website": "units/cells/index.html#fact-cytoskeleton",
+      "questions": [
+        "cells-cytoskeleton",
+        "cells-original-3"
+      ],
+      "sourceVerified": false
+    },
+    {
+      "unit": "cells",
+      "sourcePages": "14–15",
+      "pointId": "cells-nucleus",
+      "title": "Nucleus",
+      "website": "units/cells/index.html#fact-nucleus",
+      "questions": [
+        "cells-nucleus",
+        "cells-original-4"
+      ],
+      "sourceVerified": false
+    },
+    {
+      "unit": "cells",
+      "sourcePages": "14–15",
+      "pointId": "cells-nucleolus",
+      "title": "Nucleolus",
+      "website": "units/cells/index.html#fact-nucleolus",
+      "questions": [
+        "cells-nucleolus",
+        "cells-original-4"
+      ],
+      "sourceVerified": false
+    },
+    {
+      "unit": "cells",
+      "sourcePages": "16–17",
+      "pointId": "cells-ribosome",
+      "title": "Ribosome",
+      "website": "units/cells/index.html#fact-ribosome",
+      "questions": [
+        "cells-ribosome",
+        "cells-original-5"
+      ],
+      "sourceVerified": false
+    },
+    {
+      "unit": "cells",
+      "sourcePages": "16–17",
+      "pointId": "cells-rough-er",
+      "title": "Rough endoplasmic reticulum · RER",
+      "website": "units/cells/index.html#fact-rough-er",
+      "questions": [
+        "cells-rough-er",
+        "cells-original-5"
+      ],
+      "sourceVerified": false
+    },
+    {
+      "unit": "cells",
+      "sourcePages": "18–19",
+      "pointId": "cells-smooth-er",
+      "title": "Smooth endoplasmic reticulum · SER",
+      "website": "units/cells/index.html#fact-smooth-er",
+      "questions": [
+        "cells-smooth-er",
+        "cells-original-6"
+      ],
+      "sourceVerified": false
+    },
+    {
+      "unit": "cells",
+      "sourcePages": "18–19",
+      "pointId": "cells-golgi",
+      "title": "Golgi apparatus",
+      "website": "units/cells/index.html#fact-golgi",
+      "questions": [
+        "cells-golgi",
+        "cells-original-6"
+      ],
+      "sourceVerified": false
+    },
+    {
+      "unit": "cells",
+      "sourcePages": "18–19",
+      "pointId": "cells-vesicle",
+      "title": "Vesicle",
+      "website": "units/cells/index.html#fact-vesicle",
+      "questions": [
+        "cells-vesicle",
+        "cells-original-6"
+      ],
+      "sourceVerified": false
+    },
+    {
+      "unit": "cells",
+      "sourcePages": "20–21, 27",
+      "pointId": "cells-lysosome",
+      "title": "Lysosome",
+      "website": "units/cells/index.html#fact-lysosome",
+      "questions": [
+        "cells-lysosome",
+        "cells-original-7"
+      ],
+      "sourceVerified": false
+    },
+    {
+      "unit": "cells",
+      "sourcePages": "20–21, 27",
+      "pointId": "cells-vacuole",
+      "title": "Vacuole",
+      "website": "units/cells/index.html#fact-vacuole",
+      "questions": [
+        "cells-vacuole",
+        "cells-original-7"
+      ],
+      "sourceVerified": false
+    },
+    {
+      "unit": "cells",
+      "sourcePages": "20–21, 27",
+      "pointId": "cells-central-vacuole",
+      "title": "Central vacuole",
+      "website": "units/cells/index.html#fact-central-vacuole",
+      "questions": [
+        "cells-central-vacuole"
+      ],
+      "sourceVerified": false
+    },
+    {
+      "unit": "cells",
+      "sourcePages": "22–23",
+      "pointId": "cells-centrosome",
+      "title": "Centrosome & centrioles",
+      "website": "units/cells/index.html#fact-centrosome",
+      "questions": [
+        "cells-centrosome",
+        "cells-original-8"
+      ],
+      "sourceVerified": false
+    },
+    {
+      "unit": "cells",
+      "sourcePages": "22–23",
+      "pointId": "cells-cilia",
+      "title": "Cilia",
+      "website": "units/cells/index.html#fact-cilia",
+      "questions": [
+        "cells-cilia",
+        "cells-original-8"
+      ],
+      "sourceVerified": false
+    },
+    {
+      "unit": "cells",
+      "sourcePages": "22–23",
+      "pointId": "cells-flagella",
+      "title": "Flagella",
+      "website": "units/cells/index.html#fact-flagella",
+      "questions": [
+        "cells-flagella",
+        "cells-original-8"
+      ],
+      "sourceVerified": false
+    },
+    {
+      "unit": "cells",
+      "sourcePages": "24–25",
+      "pointId": "cells-mitochondria",
+      "title": "Mitochondrion · plural: mitochondria",
+      "website": "units/cells/index.html#fact-mitochondria",
+      "questions": [
+        "cells-mitochondria",
+        "cells-original-9"
+      ],
+      "sourceVerified": false
+    },
+    {
+      "unit": "cells",
+      "sourcePages": "24–25",
+      "pointId": "cells-chloroplast",
+      "title": "Chloroplast",
+      "website": "units/cells/index.html#fact-chloroplast",
+      "questions": [
+        "cells-chloroplast",
+        "cells-original-9"
+      ],
+      "sourceVerified": false
+    },
+    {
+      "unit": "cells",
+      "sourcePages": "8–9, 26, 28–31",
+      "pointId": "cells-wall",
+      "title": "Cell wall",
+      "website": "units/cells/index.html#fact-wall",
+      "questions": [
+        "cells-wall"
+      ],
+      "sourceVerified": false
+    },
+    {
+      "unit": "cells",
+      "sourcePages": "8–9, 26, 28–31",
+      "pointId": "cells-comparison",
+      "title": "Animal & plant cells",
+      "website": "units/cells/index.html#fact-comparison",
+      "questions": [
+        "cells-comparison",
+        "cells-original-10"
+      ],
+      "sourceVerified": false
+    }
+  ],
+  "sourcePages": [
+    {
+      "unit": "levels",
+      "page": 1,
+      "points": [
+        "levels-hierarchy"
+      ],
+      "website": "units/levels/index.html#hierarchy",
+      "questions": [],
+      "status": "Verified"
+    },
+    {
+      "unit": "levels",
+      "page": 2,
+      "points": [
+        "levels-cell"
+      ],
+      "website": "units/levels/index.html#level-cell",
+      "questions": [],
+      "status": "Verified"
+    },
+    {
+      "unit": "levels",
+      "page": 3,
+      "points": [
+        "levels-tissue"
+      ],
+      "website": "units/levels/index.html#level-tissue",
+      "questions": [],
+      "status": "Verified"
+    },
+    {
+      "unit": "levels",
+      "page": 4,
+      "points": [
+        "levels-organ"
+      ],
+      "website": "units/levels/index.html#level-organ",
+      "questions": [
+        "levels-original-c2"
+      ],
+      "status": "Verified"
+    },
+    {
+      "unit": "levels",
+      "page": 5,
+      "points": [
+        "levels-system"
+      ],
+      "website": "units/levels/index.html#level-system",
+      "questions": [
+        "levels-original-c4"
+      ],
+      "status": "Verified"
+    },
+    {
+      "unit": "levels",
+      "page": 6,
+      "points": [
+        "levels-organism",
+        "levels-life-processes"
+      ],
+      "website": "units/levels/index.html#level-organism",
+      "questions": [],
+      "status": "Verified"
+    },
+    {
+      "unit": "levels",
+      "page": 7,
+      "points": [
+        "levels-population"
+      ],
+      "website": "units/levels/index.html#level-population",
+      "questions": [],
+      "status": "Verified"
+    },
+    {
+      "unit": "levels",
+      "page": 8,
+      "points": [
+        "levels-community"
+      ],
+      "website": "units/levels/index.html#level-community",
+      "questions": [
+        "levels-original-c6"
+      ],
+      "status": "Verified"
+    },
+    {
+      "unit": "levels",
+      "page": 9,
+      "points": [
+        "levels-ecosystem"
+      ],
+      "website": "units/levels/index.html#level-ecosystem",
+      "questions": [
+        "levels-original-c7"
+      ],
+      "status": "Verified"
+    },
+    {
+      "unit": "levels",
+      "page": 10,
+      "points": [
+        "levels-organism"
+      ],
+      "website": "units/levels/index.html#photo-10",
+      "questions": [
+        "levels-photo-10"
+      ],
+      "status": "Verified"
+    },
+    {
+      "unit": "levels",
+      "page": 11,
+      "points": [
+        "levels-cell"
+      ],
+      "website": "units/levels/index.html#photo-11",
+      "questions": [
+        "levels-photo-11"
+      ],
+      "status": "Verified"
+    },
+    {
+      "unit": "levels",
+      "page": 12,
+      "points": [
+        "levels-system"
+      ],
+      "website": "units/levels/index.html#photo-12",
+      "questions": [
+        "levels-photo-12"
+      ],
+      "status": "Verified"
+    },
+    {
+      "unit": "levels",
+      "page": 13,
+      "points": [
+        "levels-tissue"
+      ],
+      "website": "units/levels/index.html#photo-13",
+      "questions": [
+        "levels-photo-13"
+      ],
+      "status": "Verified"
+    },
+    {
+      "unit": "levels",
+      "page": 14,
+      "points": [
+        "levels-organ"
+      ],
+      "website": "units/levels/index.html#photo-14",
+      "questions": [
+        "levels-photo-14"
+      ],
+      "status": "Verified"
+    },
+    {
+      "unit": "levels",
+      "page": 15,
+      "points": [
+        "levels-organism"
+      ],
+      "website": "units/levels/index.html#photo-15",
+      "questions": [
+        "levels-photo-15"
+      ],
+      "status": "Verified"
+    },
+    {
+      "unit": "levels",
+      "page": 16,
+      "points": [
+        "levels-cell"
+      ],
+      "website": "units/levels/index.html#photo-16",
+      "questions": [
+        "levels-photo-16"
+      ],
+      "status": "Verified"
+    },
+    {
+      "unit": "levels",
+      "page": 17,
+      "points": [
+        "levels-tissue"
+      ],
+      "website": "units/levels/index.html#photo-17",
+      "questions": [
+        "levels-photo-17"
+      ],
+      "status": "Verified"
+    },
+    {
+      "unit": "levels",
+      "page": 18,
+      "points": [
+        "levels-organism"
+      ],
+      "website": "units/levels/index.html#photo-18",
+      "questions": [
+        "levels-photo-18"
+      ],
+      "status": "Verified"
+    },
+    {
+      "unit": "levels",
+      "page": 19,
+      "points": [
+        "levels-tissue"
+      ],
+      "website": "units/levels/index.html#photo-19",
+      "questions": [
+        "levels-photo-19"
+      ],
+      "status": "Verified"
+    },
+    {
+      "unit": "levels",
+      "page": 20,
+      "points": [
+        "levels-system"
+      ],
+      "website": "units/levels/index.html#photo-20",
+      "questions": [
+        "levels-photo-20"
+      ],
+      "status": "Verified"
+    },
+    {
+      "unit": "levels",
+      "page": 21,
+      "points": [
+        "levels-organism"
+      ],
+      "website": "units/levels/index.html#photo-21",
+      "questions": [
+        "levels-photo-21"
+      ],
+      "status": "Verified"
+    },
+    {
+      "unit": "levels",
+      "page": 22,
+      "points": [
+        "levels-organ"
+      ],
+      "website": "units/levels/index.html#photo-22",
+      "questions": [
+        "levels-photo-22"
+      ],
+      "status": "Verified"
+    },
+    {
+      "unit": "levels",
+      "page": 23,
+      "points": [
+        "levels-cell"
+      ],
+      "website": "units/levels/index.html#photo-23",
+      "questions": [
+        "levels-photo-23"
+      ],
+      "status": "Verified"
+    },
+    {
+      "unit": "levels",
+      "page": 24,
+      "points": [
+        "levels-organ"
+      ],
+      "website": "units/levels/index.html#photo-24",
+      "questions": [
+        "levels-photo-24"
+      ],
+      "status": "Verified"
+    },
+    {
+      "unit": "levels",
+      "page": 25,
+      "points": [
+        "levels-organ"
+      ],
+      "website": "units/levels/index.html#photo-25",
+      "questions": [
+        "levels-photo-25"
+      ],
+      "status": "Verified"
+    },
+    {
+      "unit": "levels",
+      "page": 26,
+      "points": [
+        "levels-organism"
+      ],
+      "website": "units/levels/index.html#photo-26",
+      "questions": [
+        "levels-photo-26"
+      ],
+      "status": "Verified"
+    },
+    {
+      "unit": "levels",
+      "page": 27,
+      "points": [
+        "levels-organ"
+      ],
+      "website": "units/levels/index.html#photo-27",
+      "questions": [
+        "levels-photo-27"
+      ],
+      "status": "Verified"
+    },
+    {
+      "unit": "levels",
+      "page": 28,
+      "points": [
+        "levels-system"
+      ],
+      "website": "units/levels/index.html#photo-28",
+      "questions": [
+        "levels-photo-28"
+      ],
+      "status": "Verified"
+    },
+    {
+      "unit": "levels",
+      "page": 29,
+      "points": [
+        "levels-organism"
+      ],
+      "website": "units/levels/index.html#photo-29",
+      "questions": [
+        "levels-photo-29"
+      ],
+      "status": "Verified"
+    },
+    {
+      "unit": "levels",
+      "page": 30,
+      "points": [
+        "levels-tissue"
+      ],
+      "website": "units/levels/index.html#photo-30",
+      "questions": [
+        "levels-photo-30"
+      ],
+      "status": "Verified"
+    },
+    {
+      "unit": "levels",
+      "page": 31,
+      "points": [
+        "levels-system"
+      ],
+      "website": "units/levels/index.html#photo-31",
+      "questions": [
+        "levels-photo-31"
+      ],
+      "status": "Verified"
+    },
+    {
+      "unit": "levels",
+      "page": 32,
+      "points": [
+        "levels-organ"
+      ],
+      "website": "units/levels/index.html#photo-32",
+      "questions": [
+        "levels-photo-32"
+      ],
+      "status": "Verified"
+    },
+    {
+      "unit": "levels",
+      "page": 33,
+      "points": [
+        "levels-organ"
+      ],
+      "website": "units/levels/index.html#photo-33",
+      "questions": [
+        "levels-photo-33"
+      ],
+      "status": "Verified"
+    },
+    {
+      "unit": "levels",
+      "page": 34,
+      "points": [
+        "levels-organ"
+      ],
+      "website": "units/levels/index.html#photo-34",
+      "questions": [
+        "levels-photo-34"
+      ],
+      "status": "Verified"
+    },
+    {
+      "unit": "levels",
+      "page": 35,
+      "points": [
+        "levels-organ"
+      ],
+      "website": "units/levels/index.html#photo-35",
+      "questions": [
+        "levels-photo-35"
+      ],
+      "status": "Verified"
+    },
+    {
+      "unit": "levels",
+      "page": 36,
+      "points": [
+        "levels-cell"
+      ],
+      "website": "units/levels/index.html#photo-36",
+      "questions": [
+        "levels-photo-36"
+      ],
+      "status": "Verified"
+    },
+    {
+      "unit": "levels",
+      "page": 37,
+      "points": [
+        "levels-system"
+      ],
+      "website": "units/levels/index.html#photo-37",
+      "questions": [
+        "levels-photo-37"
+      ],
+      "status": "Verified"
+    },
+    {
+      "unit": "levels",
+      "page": 38,
+      "points": [
+        "levels-system"
+      ],
+      "website": "units/levels/index.html#photo-38",
+      "questions": [
+        "levels-photo-38"
+      ],
+      "status": "Discussion; excluded from scoring"
+    },
+    {
+      "unit": "levels",
+      "page": 39,
+      "points": [
+        "levels-organ"
+      ],
+      "website": "units/levels/index.html#photo-39",
+      "questions": [
+        "levels-photo-39"
+      ],
+      "status": "Verified"
+    },
+    {
+      "unit": "levels",
+      "page": 40,
+      "points": [
+        "levels-cell"
+      ],
+      "website": "units/levels/index.html#photo-40",
+      "questions": [
+        "levels-photo-40"
+      ],
+      "status": "Verified"
+    },
+    {
+      "unit": "levels",
+      "page": 41,
+      "points": [
+        "levels-system"
+      ],
+      "website": "units/levels/index.html#photo-41",
+      "questions": [
+        "levels-photo-41"
+      ],
+      "status": "Verified"
+    },
+    {
+      "unit": "levels",
+      "page": 42,
+      "points": [
+        "levels-organism"
+      ],
+      "website": "units/levels/index.html#photo-42",
+      "questions": [
+        "levels-photo-42"
+      ],
+      "status": "Verified"
+    },
+    {
+      "unit": "levels",
+      "page": 43,
+      "points": [
+        "levels-tissue"
+      ],
+      "website": "units/levels/index.html#photo-43",
+      "questions": [
+        "levels-photo-43"
+      ],
+      "status": "Verified"
+    },
+    {
+      "unit": "levels",
+      "page": 44,
+      "points": [
+        "levels-organism"
+      ],
+      "website": "units/levels/index.html#photo-44",
+      "questions": [
+        "levels-photo-44"
+      ],
+      "status": "Verified"
+    },
+    {
+      "unit": "levels",
+      "page": 45,
+      "points": [
+        "levels-system"
+      ],
+      "website": "units/levels/index.html#photo-45",
+      "questions": [
+        "levels-photo-45"
+      ],
+      "status": "Verified"
+    },
+    {
+      "unit": "levels",
+      "page": 46,
+      "points": [
+        "levels-organ"
+      ],
+      "website": "units/levels/index.html#photo-46",
+      "questions": [
+        "levels-photo-46"
+      ],
+      "status": "Verified"
+    },
+    {
+      "unit": "levels",
+      "page": 47,
+      "points": [
+        "levels-cell"
+      ],
+      "website": "units/levels/index.html#photo-47",
+      "questions": [
+        "levels-photo-47"
+      ],
+      "status": "Verified"
+    },
+    {
+      "unit": "levels",
+      "page": 48,
+      "points": [
+        "levels-system"
+      ],
+      "website": "units/levels/index.html#photo-48",
+      "questions": [
+        "levels-photo-48"
+      ],
+      "status": "Verified"
+    },
+    {
+      "unit": "levels",
+      "page": 49,
+      "points": [
+        "levels-organ"
+      ],
+      "website": "units/levels/index.html#photo-49",
+      "questions": [
+        "levels-photo-49"
+      ],
+      "status": "Verified"
+    },
+    {
+      "unit": "levels",
+      "page": 50,
+      "points": [
+        "levels-tissue"
+      ],
+      "website": "units/levels/index.html#photo-50",
+      "questions": [
+        "levels-photo-50"
+      ],
+      "status": "Discussion; excluded from scoring"
+    },
+    {
+      "unit": "levels",
+      "page": 51,
+      "points": [
+        "levels-system"
+      ],
+      "website": "units/levels/index.html#photo-51",
+      "questions": [
+        "levels-photo-51"
+      ],
+      "status": "Verified"
+    },
+    {
+      "unit": "levels",
+      "page": 52,
+      "points": [
+        "levels-organism"
+      ],
+      "website": "units/levels/index.html#photo-52",
+      "questions": [
+        "levels-photo-52"
+      ],
+      "status": "Verified"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+'use strict';
+(()=>{
+const D=window.COURSE_DATA,S=window.CourseStore,unit=document.body.dataset.courseUnit,root='../../',main=document.getElementById('main');
+const esc=v=>String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const points=D.points.filter(p=>p.unit===unit);
+function tools(p){const studied=!!S.read().read[p.id];return `<div class="point-tools" data-tools="${p.id}"><button type="button" data-studied="${p.id}" aria-pressed="${studied}">${studied?'✓ Studied':'Mark as studied'}</button><a href="${root}index.html#practice/${unit}/${p.key}">Practise this objective</a></div>`;}
+function addTools(el,p){if(el&&!el.querySelector(`[data-tools="${p.id}"]`))el.insertAdjacentHTML('beforeend',tools(p));}
+function enhance(){if(unit==='levels'){
+ const index=Number(document.querySelector('[data-level][aria-pressed=true]')?.dataset.level);if(Number.isInteger(index)&&index>=0){addTools(main.querySelector('.detail-card'),points[index]);}
+ main.querySelectorAll('.note-card').forEach((el,i)=>{if(points[i]){el.id='note-'+points[i].key;addTools(el,points[i]);}});
+ if(main.querySelector('.notes-callout')&&!document.getElementById('hierarchy')){const wrapper=document.createElement('section');wrapper.className='knowledge-group';wrapper.innerHTML=`<article id="hierarchy"><h2>Structural hierarchy and relationships</h2><p>Cell → tissue → organ → organ system → organism → population → community → ecosystem.</p><p>The first five levels describe the organization of a multicellular organism with these structures. A population includes members of one species in an area; a community includes the area's different populations; an ecosystem includes the community and its nonliving environment.</p><details class="source-overview"><summary>Original course overview · PDF page 1</summary><img src="images/source-overview.png" alt="Original source overview: cell, tissue, organ, body system and organism."></details><p>The source overview on page 1 shows the first five levels, from cell to organism. Pages 7–9 extend the lesson to population, community and ecosystem.</p>${tools(points.find(p=>p.key==='hierarchy'))}</article><article id="life-processes"><h2>Life processes</h2><p>The source describes organisms as made of cells, needing energy, excreting wastes, growing, responding, reproducing and using gases (PDF page 6).</p><p>Source examples: animals, plants, bacteria, fungi, protists and “monerans.” Monerans is historical vocabulary, not a separate modern group alongside bacteria.</p><p>These processes describe life in general. An individual is still alive if it has not reproduced or cannot reproduce. “Uses gases” does not mean that every organism requires oxygen.</p>${tools(points.find(p=>p.key==='life-processes'))}</article>`;main.querySelector('.notes-callout').after(wrapper);}
+ if(['#hierarchy','#life-processes'].includes(location.hash)){const el=document.getElementById(location.hash.slice(1));if(el&&!el.dataset.scrolled){el.dataset.scrolled='yes';el.scrollIntoView();}}
+ }else{
+ points.forEach(p=>addTools(document.getElementById('fact-'+p.key),p));
+ main.querySelectorAll('.fact-test').forEach(a=>{const fact=a.closest('.fact'),p=points.find(p=>fact?.id==='fact-'+p.key);if(p){const href=`${root}index.html#practice/cells/${p.key}`;if(a.getAttribute('href')!==href)a.setAttribute('href',href);if(a.textContent!=='Practise this objective')a.textContent='Practise this objective';}});
+ }}
+document.addEventListener('click',e=>{const b=e.target.closest('[data-studied]');if(!b)return;const id=b.dataset.studied,studied=!S.read().read[id];S.mark(id,studied);document.querySelectorAll(`[data-studied="${id}"]`).forEach(el=>{el.setAttribute('aria-pressed',String(studied));el.textContent=studied?'✓ Studied':'Mark as studied';});});
+const observer=new MutationObserver(enhance);observer.observe(main,{childList:true,subtree:true});enhance();
+})();

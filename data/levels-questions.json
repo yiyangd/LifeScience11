@@ -1,0 +1,172 @@
+[
+  {
+    "id": "levels-cell",
+    "pointKey": "cell",
+    "stem": "Which statement correctly identifies a cell?",
+    "options": [
+      "The basic unit of structure and function in living organisms",
+      "A group of different organs working together",
+      "All living and nonliving things in an area",
+      "Several populations living in the same area"
+    ],
+    "answer": 0,
+    "explanation": "Page 2 defines a cell as the basic unit of structure and function in all living organisms. Muscle cells and epidermal cells are examples; tissues and organs are higher structural levels.",
+    "pages": [
+      2
+    ]
+  },
+  {
+    "id": "levels-tissue",
+    "pointKey": "tissue",
+    "stem": "A group of muscle cells works together to perform a specific function. Which level does this group represent?",
+    "options": [
+      "Organism",
+      "Organ system",
+      "Tissue",
+      "Ecosystem"
+    ],
+    "answer": 2,
+    "explanation": "Page 3 describes tissue as similar cells working together for a specific function and lists muscle tissue as an animal example. An organ combines different tissues.",
+    "pages": [
+      3
+    ]
+  },
+  {
+    "id": "levels-organ",
+    "pointKey": "organ",
+    "stem": "A leaf contains different tissues that work together. Which level of organization is the leaf?",
+    "options": [
+      "Cell",
+      "Organ",
+      "Population",
+      "Organ system"
+    ],
+    "answer": 1,
+    "explanation": "An organ is made of different tissues working together for a specific function. Page 4 lists leaves among plant organs, alongside roots, stems, flowers, fruits, buds, tubers, and rhizomes.",
+    "pages": [
+      4
+    ]
+  },
+  {
+    "id": "levels-system",
+    "pointKey": "system",
+    "stem": "The stomach, intestines, and other digestive organs work together to carry out digestion. What does this coordinated group form?",
+    "options": [
+      "A tissue",
+      "A single cell",
+      "A population",
+      "An organ system"
+    ],
+    "answer": 3,
+    "explanation": "Page 5 defines an organ system as different organs working together to perform a particular set of functions. Digestion is performed by a digestive system; the component stomach is an organ.",
+    "pages": [
+      5
+    ]
+  },
+  {
+    "id": "levels-organism",
+    "pointKey": "organism",
+    "stem": "Which example represents one complete organism rather than only part of an organism?",
+    "options": [
+      "A complete plant with its roots and shoots",
+      "One leaf on the plant",
+      "The entire root system of the plant",
+      "A group of cells in a plant tissue"
+    ],
+    "answer": 0,
+    "explanation": "An organism is an individual living thing made of cells. A complete plant is an organism; a leaf is an organ, a root system is an organ system, and a tissue contains cooperating cells.",
+    "pages": [
+      6,
+      26,
+      44
+    ]
+  },
+  {
+    "id": "levels-population",
+    "pointKey": "population",
+    "stem": "Which group meets BOTH requirements for a population in the source notes?",
+    "options": [
+      "All organisms of different species in a park",
+      "All frogs of one species living in one pond",
+      "All frogs and fish living in one pond",
+      "One frog together with the pond water and rocks"
+    ],
+    "answer": 1,
+    "explanation": "A population consists of organisms of the same species living in the same area. Different species form multiple populations, and nonliving factors are not members of a population.",
+    "pages": [
+      7
+    ]
+  },
+  {
+    "id": "levels-community",
+    "pointKey": "community",
+    "stem": "The plant, animal, fungal, and microbial populations living in one park together form which level?",
+    "options": [
+      "One organism",
+      "One population",
+      "A community",
+      "One tissue"
+    ],
+    "answer": 2,
+    "explanation": "Page 8 defines a community as groups of different populations living in a given area. These living populations include different species, so they are not one population.",
+    "pages": [
+      8
+    ]
+  },
+  {
+    "id": "levels-ecosystem",
+    "pointKey": "ecosystem",
+    "stem": "A study includes a park's trees and animals as well as its rocks, water, and soil. Which level includes everything being studied?",
+    "options": [
+      "A cell",
+      "A population",
+      "A community only",
+      "An ecosystem"
+    ],
+    "answer": 3,
+    "explanation": "Page 9 includes both living and nonliving things in an ecosystem. A community includes the living populations, while the ecosystem also includes the nonliving surroundings.",
+    "pages": [
+      9
+    ]
+  },
+  {
+    "id": "levels-hierarchy",
+    "pointKey": "hierarchy",
+    "stem": "Which sequence orders all eight levels from smaller organizational scope to larger scope?",
+    "options": [
+      "Cell → tissue → organ → organ system → organism → population → community → ecosystem",
+      "Cell → organ → tissue → organ system → organism → population → ecosystem → community",
+      "Tissue → cell → organ → organism → organ system → community → population → ecosystem",
+      "Cell → tissue → organ → organ system → population → organism → ecosystem → community"
+    ],
+    "answer": 0,
+    "explanation": "The source progresses from cells to tissues, organs, organ systems, and organisms, followed by populations, communities, and ecosystems. The first five levels describe structures in organisms that have these levels; this is an organization sequence, not a growth timeline.",
+    "pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "id": "levels-life-processes",
+    "pointKey": "life-processes",
+    "stem": "Which list matches ALL six life processes named on source page 6, in addition to being made of cells?",
+    "options": [
+      "Movement, photosynthesis, flowering, sleep, hearing, and flight",
+      "Energy use, waste excretion, growth, response, reproduction, and use of gases",
+      "Energy use, photosynthesis, growth, flowering, reproduction, and use of oxygen only",
+      "Waste excretion, flight, speech, sleep, response, and use of gases"
+    ],
+    "answer": 1,
+    "explanation": "The source lists needs energy, excretes wastes, grows, responds, reproduces, and uses gases. These summarize typical life processes; an individual that cannot reproduce is still alive, and uses gases does not mean every organism requires oxygen.",
+    "pages": [
+      6
+    ]
+  }
+]

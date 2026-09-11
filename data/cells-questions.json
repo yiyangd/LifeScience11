@@ -1,0 +1,407 @@
+[
+  {
+    "id": "cells-theory",
+    "pointKey": "theory",
+    "stem": "A student sees one cell divide into two cells. Which statement of cell theory does this observation support?",
+    "options": [
+      "All organisms must contain many cells.",
+      "New cells arise from pre-existing cells.",
+      "Organs are the basic units of life.",
+      "New cells appear spontaneously from nonliving material."
+    ],
+    "answer": 1,
+    "explanation": "The two new cells come from an existing cell by division. Cell theory also states that living things consist of cells and that cells are the basic units of life.",
+    "pages": "2–3",
+    "sourceStatus": "inherited-unverified"
+  },
+  {
+    "id": "cells-organization",
+    "pointKey": "organization",
+    "stem": "An organism carries out all of its life processes within a single cell. How should it be described?",
+    "options": [
+      "Multicellular, because it carries out many processes.",
+      "An organ system, because its parts work together.",
+      "Unicellular, because the organism consists of one cell.",
+      "A tissue, because the cell has different structures."
+    ],
+    "answer": 2,
+    "explanation": "Unicellular describes an organism made of one cell. Multicellular organisms consist of many cells; those cells may be organized into tissues, organs, and organ systems.",
+    "pages": "2–3",
+    "sourceStatus": "inherited-unverified"
+  },
+  {
+    "id": "cells-prokaryote",
+    "pointKey": "prokaryote",
+    "stem": "A bacterial cell has DNA, ribosomes, and a cell membrane, but no membrane-bound nucleus. Which description fits it?",
+    "options": [
+      "Prokaryotic, because its DNA is not enclosed in a nucleus.",
+      "Eukaryotic, because all cells with DNA have a nucleus.",
+      "A plant cell, because it contains ribosomes.",
+      "Nonliving, because a nucleus is required in every cell."
+    ],
+    "answer": 0,
+    "explanation": "Prokaryotic cells lack a membrane-bound nucleus and membrane-bound organelles. They still have DNA, ribosomes, cytoplasm, and a cell membrane. Bacteria are a classroom example.",
+    "pages": "4–7",
+    "sourceStatus": "inherited-unverified"
+  },
+  {
+    "id": "cells-eukaryote",
+    "pointKey": "eukaryote",
+    "stem": "A unicellular organism has a membrane-bound nucleus and membrane-bound organelles. Which conclusion follows?",
+    "options": [
+      "It must be a bacterium.",
+      "It cannot be living because it has only one cell.",
+      "It is prokaryotic because it is unicellular.",
+      "It is eukaryotic; eukaryotes can be unicellular."
+    ],
+    "answer": 3,
+    "explanation": "A membrane-bound nucleus identifies the cell as eukaryotic. Being unicellular does not make an organism prokaryotic: some eukaryotes are unicellular and others are multicellular.",
+    "pages": "4–7",
+    "sourceStatus": "inherited-unverified"
+  },
+  {
+    "id": "cells-shared",
+    "pointKey": "shared",
+    "stem": "Which set of components is shared by typical prokaryotic and eukaryotic cells?",
+    "options": [
+      "Nucleus, chloroplasts, mitochondria, and a cell wall.",
+      "Cell membrane, cytoplasm, ribosomes, and DNA.",
+      "Cell wall, central vacuole, nucleus, and DNA.",
+      "Chloroplasts, ribosomes, centrioles, and a cell wall."
+    ],
+    "answer": 1,
+    "explanation": "Both cell types have a boundary membrane, cytoplasm, ribosomes for protein synthesis, and DNA as hereditary material. Prokaryotes do not have a membrane-bound nucleus or membrane-bound organelles.",
+    "pages": "4–7",
+    "sourceStatus": "inherited-unverified"
+  },
+  {
+    "id": "cells-organelles",
+    "pointKey": "organelles",
+    "stem": "Why are cell organelles sometimes compared with a team's specialized workers?",
+    "options": [
+      "Each organelle performs every job in the cell on its own.",
+      "Every organelle has the same structure and function.",
+      "Different cell structures perform particular tasks that support the cell together.",
+      "Organelles are complete organs made of many tissues."
+    ],
+    "answer": 2,
+    "explanation": "Organelles are specialized structures within cells. Their tasks include protein production, transport, energy conversion, storage, and breakdown. They are not tissue-based organs.",
+    "pages": "4–7",
+    "sourceStatus": "inherited-unverified"
+  },
+  {
+    "id": "cells-membrane",
+    "pointKey": "membrane",
+    "stem": "A cell must admit needed materials while controlling what leaves. Which structure directly forms this selectively permeable boundary?",
+    "options": [
+      "The plasma membrane.",
+      "The nucleolus.",
+      "A ribosome.",
+      "A centriole."
+    ],
+    "answer": 0,
+    "explanation": "The plasma membrane surrounds the cell and regulates exchange with its environment. It consists of a phospholipid bilayer with embedded proteins.",
+    "pages": "10–13",
+    "sourceStatus": "inherited-unverified"
+  },
+  {
+    "id": "cells-bilayer",
+    "pointKey": "bilayer",
+    "stem": "Which statement best explains the words 'fluid mosaic' in the fluid-mosaic model of the membrane?",
+    "options": [
+      "The membrane is a solid wall made of a single kind of molecule.",
+      "The membrane is a layer of water without lipids or proteins.",
+      "Every membrane component is permanently fixed in one position.",
+      "Many components can move within a membrane that contains a mixture of components."
+    ],
+    "answer": 3,
+    "explanation": "'Fluid' refers to the movement of many membrane components. 'Mosaic' refers to its mixture of components, including proteins in a phospholipid bilayer. 'Bilayer' means two layers of phospholipids.",
+    "pages": "10–13",
+    "sourceStatus": "inherited-unverified"
+  },
+  {
+    "id": "cells-cytoplasm",
+    "pointKey": "cytoplasm",
+    "stem": "Which description best fits the cytoplasm in the course notes?",
+    "options": [
+      "A rigid outer layer that replaces the cell membrane.",
+      "A mainly water-based internal environment for cell structures and activities.",
+      "A compartment that contains only the cell's DNA.",
+      "A fiber that pulls chromosomes apart during division."
+    ],
+    "answer": 1,
+    "explanation": "The notes describe cytoplasm as a jelly-like interior made mainly of water. It provides an environment for cell structures and activities; it does not act as glue that immobilizes everything.",
+    "pages": "10–13",
+    "sourceStatus": "inherited-unverified"
+  },
+  {
+    "id": "cells-cytoskeleton",
+    "pointKey": "cytoskeleton",
+    "stem": "A cell loses much of its internal protein-fiber network. Which activities would most directly be affected?",
+    "options": [
+      "Only storing hereditary information.",
+      "Only trapping sunlight in chloroplasts.",
+      "Maintaining cell shape and moving organelles within the cell.",
+      "Making the cellulose wall of a bacterium."
+    ],
+    "answer": 2,
+    "explanation": "The cytoskeleton is a network of protein fibers. It supports cell shape and helps position and move components, including organelles, inside the cell.",
+    "pages": "10–13",
+    "sourceStatus": "inherited-unverified"
+  },
+  {
+    "id": "cells-nucleus",
+    "pointKey": "nucleus",
+    "stem": "Which pairing correctly connects a nuclear structure with its role?",
+    "options": [
+      "Nuclear pores regulate exchange; the nucleus contains and protects DNA.",
+      "Nuclear pores make sugars; the nucleus contains the central vacuole.",
+      "Nuclear pores digest bacteria; the nucleus synthesizes membrane lipids.",
+      "Nuclear pores propel the cell; the nucleus packages proteins for shipping."
+    ],
+    "answer": 0,
+    "explanation": "The nucleus contains DNA and is surrounded by the nuclear envelope. Pores regulate movement into and out of the nucleus, while DNA carries information involved in directing cell activities.",
+    "pages": "14–15",
+    "sourceStatus": "inherited-unverified"
+  },
+  {
+    "id": "cells-nucleolus",
+    "pointKey": "nucleolus",
+    "stem": "Which activity is associated with the nucleolus inside the nucleus?",
+    "options": [
+      "Capturing light energy to make sugars.",
+      "Sorting proteins received from the endoplasmic reticulum.",
+      "Digesting worn-out cell structures.",
+      "Producing rRNA and helping assemble ribosomal subunits."
+    ],
+    "answer": 3,
+    "explanation": "The nucleolus produces ribosomal RNA and helps assemble ribosomal subunits. It is a structure inside the nucleus, not another name for the whole nucleus.",
+    "pages": "14–15",
+    "sourceStatus": "inherited-unverified"
+  },
+  {
+    "id": "cells-ribosome",
+    "pointKey": "ribosome",
+    "stem": "Which structure directly synthesizes proteins, whether free in the cytoplasm or attached to rough ER?",
+    "options": [
+      "A lysosome.",
+      "A ribosome.",
+      "A vacuole.",
+      "A chloroplast."
+    ],
+    "answer": 1,
+    "explanation": "Ribosomes synthesize proteins and consist of proteins and rRNA. They can occur free in the cytoplasm or attached to rough ER. Prokaryotic and eukaryotic cells both have ribosomes.",
+    "pages": "16–17",
+    "sourceStatus": "inherited-unverified"
+  },
+  {
+    "id": "cells-rough-er",
+    "pointKey": "rough-er",
+    "stem": "What gives rough endoplasmic reticulum its 'rough' appearance?",
+    "options": [
+      "A cellulose wall surrounds it.",
+      "Its surface is covered by chloroplasts.",
+      "Ribosomes are attached to its surface.",
+      "Its membrane is completely rigid."
+    ],
+    "answer": 2,
+    "explanation": "Ribosomes attached to the ER surface make it appear rough. Those ribosomes synthesize proteins, and rough ER supports processing and transport of the associated proteins.",
+    "pages": "16–17",
+    "sourceStatus": "inherited-unverified"
+  },
+  {
+    "id": "cells-smooth-er",
+    "pointKey": "smooth-er",
+    "stem": "Which ER region lacks attached ribosomes and is associated with lipid synthesis?",
+    "options": [
+      "Smooth endoplasmic reticulum.",
+      "Rough endoplasmic reticulum.",
+      "The nuclear pore.",
+      "The nucleolus."
+    ],
+    "answer": 0,
+    "explanation": "Smooth ER has no attached ribosomes and makes lipids, including membrane lipids. Rough ER is distinguished by attached ribosomes involved in protein synthesis.",
+    "pages": "18–19",
+    "sourceStatus": "inherited-unverified"
+  },
+  {
+    "id": "cells-golgi",
+    "pointKey": "golgi",
+    "stem": "Proteins arrive from the ER and must be processed, sorted, and sent to different destinations. Which organelle performs this sorting role?",
+    "options": [
+      "The central vacuole.",
+      "The nucleolus.",
+      "A centriole.",
+      "The Golgi apparatus."
+    ],
+    "answer": 3,
+    "explanation": "The Golgi apparatus consists of stacked membrane sacs. It receives material in ER transport vesicles, processes and sorts it, and sends it to appropriate destinations.",
+    "pages": "18–19",
+    "sourceStatus": "inherited-unverified"
+  },
+  {
+    "id": "cells-vesicle",
+    "pointKey": "vesicle",
+    "stem": "What carries material from the ER to the Golgi as a small membrane-bound package?",
+    "options": [
+      "A ribosome.",
+      "A transport vesicle.",
+      "A chromosome.",
+      "A cilium."
+    ],
+    "answer": 1,
+    "explanation": "A vesicle is a small membrane-bound sac that transports material between the ER, Golgi, and other destinations. It acts as a carrier rather than as the main protein-synthesis site.",
+    "pages": "18–19",
+    "sourceStatus": "inherited-unverified"
+  },
+  {
+    "id": "cells-lysosome",
+    "pointKey": "lysosome",
+    "stem": "An animal cell needs to digest worn cell components and recover useful materials. Which structure is best suited to this job?",
+    "options": [
+      "The cell wall.",
+      "The nucleolus.",
+      "A lysosome containing digestive enzymes.",
+      "A chloroplast containing light-capturing structures."
+    ],
+    "answer": 2,
+    "explanation": "Lysosomes contain enzymes that digest materials, including worn cell structures. This supports recycling inside the cell. Their role should not be simplified to being the sole cause of apoptosis.",
+    "pages": "20–21, 27",
+    "sourceStatus": "inherited-unverified"
+  },
+  {
+    "id": "cells-vacuole",
+    "pointKey": "vacuole",
+    "stem": "Which role best describes the vacuoles shown in the course's animal-cell model?",
+    "options": [
+      "Storing water, nutrients, and wastes.",
+      "Synthesizing proteins from rRNA.",
+      "Organizing spindle microtubules.",
+      "Capturing light for photosynthesis."
+    ],
+    "answer": 0,
+    "explanation": "Vacuoles are membrane-bound storage compartments. The notes show smaller, multiple vacuoles in an animal-cell model, in contrast with the large central vacuole typical of a mature plant cell.",
+    "pages": "20–21, 27",
+    "sourceStatus": "inherited-unverified"
+  },
+  {
+    "id": "cells-central-vacuole",
+    "pointKey": "central-vacuole",
+    "stem": "How does water in the large central vacuole help support a typical mature plant cell?",
+    "options": [
+      "It replaces the plasma membrane with a rigid shell.",
+      "It changes directly into the spindle used in division.",
+      "It supplies the ribosomes that make the cell look rough.",
+      "It helps maintain turgor pressure as well as providing storage."
+    ],
+    "answer": 3,
+    "explanation": "The large central vacuole stores materials. Water within it also contributes to turgor pressure, helping support the cell. This is a typical mature plant-cell feature.",
+    "pages": "20–21, 27",
+    "sourceStatus": "inherited-unverified"
+  },
+  {
+    "id": "cells-centrosome",
+    "pointKey": "centrosome",
+    "stem": "In a typical animal cell, which structure organizes microtubules for the spindle used to separate chromosomes?",
+    "options": [
+      "The chloroplast.",
+      "The centrosome.",
+      "The Golgi apparatus.",
+      "The central vacuole."
+    ],
+    "answer": 1,
+    "explanation": "The centrosome organizes microtubules, including those of the division spindle. A typical animal-cell centrosome contains centrioles made of microtubules; it exists before cell division begins.",
+    "pages": "22–23",
+    "sourceStatus": "inherited-unverified"
+  },
+  {
+    "id": "cells-cilia",
+    "pointKey": "cilia",
+    "stem": "A cell surface has many short projections that move fluid across it. Which structures best fit this description?",
+    "options": [
+      "Ribosomes.",
+      "Nuclear pores.",
+      "Cilia.",
+      "Central vacuoles."
+    ],
+    "answer": 2,
+    "explanation": "Cilia are typically short and numerous. They can move fluid across a cell surface or help propel a whole cell. Flagella are usually longer and fewer.",
+    "pages": "22–23",
+    "sourceStatus": "inherited-unverified"
+  },
+  {
+    "id": "cells-flagella",
+    "pointKey": "flagella",
+    "stem": "Which structure is usually longer and fewer in number than cilia and can propel a cell?",
+    "options": [
+      "A flagellum.",
+      "A nuclear pore.",
+      "A lysosome.",
+      "A Golgi sac."
+    ],
+    "answer": 0,
+    "explanation": "Flagella are usually long movement structures present in relatively small numbers. The notes' '1–3' is a simplified example, not a universal limit. Bacterial and eukaryotic flagella differ in structure.",
+    "pages": "22–23",
+    "sourceStatus": "inherited-unverified"
+  },
+  {
+    "id": "cells-mitochondria",
+    "pointKey": "mitochondria",
+    "stem": "Which statement explains why a photosynthetic plant cell also needs mitochondria?",
+    "options": [
+      "Mitochondria are the structures that capture sunlight.",
+      "Mitochondria replace all of the cell's ribosomes.",
+      "Mitochondria store water so the cell does not need a vacuole.",
+      "Mitochondria convert food-derived energy into ATP through cellular respiration."
+    ],
+    "answer": 3,
+    "explanation": "Mitochondria are a major site of cellular respiration and ATP production. Photosynthesis does not remove a plant cell's need to use food-derived energy. Mitochondria contain an inner membrane with folds and a matrix.",
+    "pages": "24–25",
+    "sourceStatus": "inherited-unverified"
+  },
+  {
+    "id": "cells-chloroplast",
+    "pointKey": "chloroplast",
+    "stem": "Which organelle captures light energy to help make sugars and contains grana surrounded by stroma?",
+    "options": [
+      "The Golgi apparatus.",
+      "The chloroplast.",
+      "The lysosome.",
+      "The centrosome."
+    ],
+    "answer": 1,
+    "explanation": "Chloroplasts perform photosynthesis. Grana are stacks of membrane sacs, and stroma is the surrounding internal fluid. Not every plant cell contains chloroplasts; algae can have them too.",
+    "pages": "24–25",
+    "sourceStatus": "inherited-unverified"
+  },
+  {
+    "id": "cells-wall",
+    "pointKey": "wall",
+    "stem": "Which statement correctly describes cell walls?",
+    "options": [
+      "Animal cells have cellulose walls, while plants lack walls.",
+      "Every prokaryotic cell has a cellulose wall.",
+      "Plant walls contain cellulose; fungal walls contain chitin; most bacterial walls contain peptidoglycan.",
+      "A cell wall is the same structure as the selectively permeable plasma membrane."
+    ],
+    "answer": 2,
+    "explanation": "Cell walls lie outside the membrane and help protect the cell and maintain its shape. Wall composition differs among groups. Animals lack cell walls, and peptidoglycan is not universal among all prokaryotes.",
+    "pages": "8–9, 26, 28–31",
+    "sourceStatus": "inherited-unverified"
+  },
+  {
+    "id": "cells-comparison",
+    "pointKey": "comparison",
+    "stem": "Which combination best identifies the photosynthetic plant-cell model rather than the animal-cell model?",
+    "options": [
+      "A cellulose wall, chloroplasts, and a large central vacuole.",
+      "A cell membrane, cytoplasm, and ribosomes.",
+      "A nucleus, rough ER, and mitochondria.",
+      "DNA, Golgi apparatus, and a cell membrane."
+    ],
+    "answer": 0,
+    "explanation": "The wall, chloroplasts, and large central vacuole together are characteristic clues in the course's plant-cell diagram. The other sets contain structures shared by typical plant and animal cells. A wall alone is not enough to prove a cell is a plant cell.",
+    "pages": "8–9, 26, 28–31",
+    "sourceStatus": "inherited-unverified"
+  }
+]
