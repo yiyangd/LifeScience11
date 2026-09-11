@@ -1,14 +1,22 @@
 {
-  "countingRule": "One named learning objective per concept or fact card, with definitions, functions and examples grouped. The Levels unit has eight named levels plus hierarchy and life processes. The Cells unit has 27 fact cards in 10 groups. Related content across the units is cross-referenced; no complete objectives are equivalent, so all 37 remain after deduplication.",
+  "countingRule": "Each lesson keeps its complete learning objectives (84 lesson-level entries). Repeated named cell/structure concepts explicitly linked between Cell Biology and Concept 1 count once in the course total: 61 distinct concepts. Lesson-specific details and questions remain separate. Definitions, functions and examples are grouped into objectives rather than counted as individual factual statements.",
+  "counts": {
+    "lessonObjectives": 84,
+    "distinctConcepts": 61,
+    "scoredQuestions": 155,
+    "discussions": 2
+  },
   "sourceStatus": {
-    "levels": "Verified against supplied 52-page PDF, not an editable original PPT.",
-    "cells": "31-page source PDF/PPT missing; page references inherited from the existing website. Original source completeness cannot be verified."
+    "levels": "Verified against the supplied 52-page Levels PDF.",
+    "biology": "Verified against the supplied 43-page Cell Biology PDF. Distinct from the 31-page Concept 1 lecture. All page images and extracted text retained; teaching corrections documented.",
+    "cells": "Original 31-page Concept 1 PDF/PPT still missing. Its page references remain inherited and unverified; the new Cell Biology file is a different lecture."
   },
   "knowledge": [
     {
       "unit": "levels",
       "sourcePages": "2",
       "pointId": "levels-cell",
+      "canonical": "levels-cell",
       "title": "Cell",
       "website": "units/levels/index.html#level-cell",
       "questions": [
@@ -27,6 +35,7 @@
       "unit": "levels",
       "sourcePages": "3",
       "pointId": "levels-tissue",
+      "canonical": "levels-tissue",
       "title": "Tissue",
       "website": "units/levels/index.html#level-tissue",
       "questions": [
@@ -44,6 +53,7 @@
       "unit": "levels",
       "sourcePages": "4",
       "pointId": "levels-organ",
+      "canonical": "levels-organ",
       "title": "Organ",
       "website": "units/levels/index.html#level-organ",
       "questions": [
@@ -69,6 +79,7 @@
       "unit": "levels",
       "sourcePages": "5",
       "pointId": "levels-system",
+      "canonical": "levels-system",
       "title": "Organ system",
       "website": "units/levels/index.html#level-system",
       "questions": [
@@ -90,6 +101,7 @@
       "unit": "levels",
       "sourcePages": "6",
       "pointId": "levels-organism",
+      "canonical": "levels-organism",
       "title": "Organism",
       "website": "units/levels/index.html#level-organism",
       "questions": [
@@ -111,6 +123,7 @@
       "unit": "levels",
       "sourcePages": "7",
       "pointId": "levels-population",
+      "canonical": "levels-population",
       "title": "Population",
       "website": "units/levels/index.html#level-population",
       "questions": [
@@ -123,6 +136,7 @@
       "unit": "levels",
       "sourcePages": "8",
       "pointId": "levels-community",
+      "canonical": "levels-community",
       "title": "Community",
       "website": "units/levels/index.html#level-community",
       "questions": [
@@ -135,6 +149,7 @@
       "unit": "levels",
       "sourcePages": "9",
       "pointId": "levels-ecosystem",
+      "canonical": "levels-ecosystem",
       "title": "Ecosystem",
       "website": "units/levels/index.html#level-ecosystem",
       "questions": [
@@ -147,6 +162,7 @@
       "unit": "levels",
       "sourcePages": "1–9",
       "pointId": "levels-hierarchy",
+      "canonical": "levels-hierarchy",
       "title": "Structural hierarchy and relationships",
       "website": "units/levels/index.html#hierarchy",
       "questions": [
@@ -159,6 +175,7 @@
       "unit": "levels",
       "sourcePages": "6",
       "pointId": "levels-life-processes",
+      "canonical": "levels-life-processes",
       "title": "Life processes",
       "website": "units/levels/index.html#life-processes",
       "questions": [
@@ -170,6 +187,7 @@
       "unit": "cells",
       "sourcePages": "2–3",
       "pointId": "cells-theory",
+      "canonical": "cells-theory",
       "title": "Cell theory",
       "website": "units/cells/index.html#fact-theory",
       "questions": [
@@ -182,6 +200,7 @@
       "unit": "cells",
       "sourcePages": "2–3",
       "pointId": "cells-organization",
+      "canonical": "cells-organization",
       "title": "Unicellular & multicellular",
       "website": "units/cells/index.html#fact-organization",
       "questions": [
@@ -193,6 +212,7 @@
       "unit": "cells",
       "sourcePages": "4–7",
       "pointId": "cells-prokaryote",
+      "canonical": "cells-prokaryote",
       "title": "Prokaryotic cell",
       "website": "units/cells/index.html#fact-prokaryote",
       "questions": [
@@ -205,6 +225,7 @@
       "unit": "cells",
       "sourcePages": "4–7",
       "pointId": "cells-eukaryote",
+      "canonical": "cells-eukaryote",
       "title": "Eukaryotic cell",
       "website": "units/cells/index.html#fact-eukaryote",
       "questions": [
@@ -217,6 +238,7 @@
       "unit": "cells",
       "sourcePages": "4–7",
       "pointId": "cells-shared",
+      "canonical": "cells-shared",
       "title": "Four shared components",
       "website": "units/cells/index.html#fact-shared",
       "questions": [
@@ -228,6 +250,7 @@
       "unit": "cells",
       "sourcePages": "4–7",
       "pointId": "cells-organelles",
+      "canonical": "cells-organelles",
       "title": "Organelles",
       "website": "units/cells/index.html#fact-organelles",
       "questions": [
@@ -239,6 +262,7 @@
       "unit": "cells",
       "sourcePages": "10–13",
       "pointId": "cells-membrane",
+      "canonical": "cells-membrane",
       "title": "Cell / plasma membrane",
       "website": "units/cells/index.html#fact-membrane",
       "questions": [
@@ -251,6 +275,7 @@
       "unit": "cells",
       "sourcePages": "10–13",
       "pointId": "cells-bilayer",
+      "canonical": "cells-bilayer",
       "title": "Fluid-mosaic model",
       "website": "units/cells/index.html#fact-bilayer",
       "questions": [
@@ -262,6 +287,7 @@
       "unit": "cells",
       "sourcePages": "10–13",
       "pointId": "cells-cytoplasm",
+      "canonical": "cells-cytoplasm",
       "title": "Cytoplasm",
       "website": "units/cells/index.html#fact-cytoplasm",
       "questions": [
@@ -274,6 +300,7 @@
       "unit": "cells",
       "sourcePages": "10–13",
       "pointId": "cells-cytoskeleton",
+      "canonical": "cells-cytoskeleton",
       "title": "Cytoskeleton",
       "website": "units/cells/index.html#fact-cytoskeleton",
       "questions": [
@@ -286,6 +313,7 @@
       "unit": "cells",
       "sourcePages": "14–15",
       "pointId": "cells-nucleus",
+      "canonical": "cells-nucleus",
       "title": "Nucleus",
       "website": "units/cells/index.html#fact-nucleus",
       "questions": [
@@ -298,6 +326,7 @@
       "unit": "cells",
       "sourcePages": "14–15",
       "pointId": "cells-nucleolus",
+      "canonical": "cells-nucleolus",
       "title": "Nucleolus",
       "website": "units/cells/index.html#fact-nucleolus",
       "questions": [
@@ -310,6 +339,7 @@
       "unit": "cells",
       "sourcePages": "16–17",
       "pointId": "cells-ribosome",
+      "canonical": "cells-ribosome",
       "title": "Ribosome",
       "website": "units/cells/index.html#fact-ribosome",
       "questions": [
@@ -322,6 +352,7 @@
       "unit": "cells",
       "sourcePages": "16–17",
       "pointId": "cells-rough-er",
+      "canonical": "cells-rough-er",
       "title": "Rough endoplasmic reticulum · RER",
       "website": "units/cells/index.html#fact-rough-er",
       "questions": [
@@ -334,6 +365,7 @@
       "unit": "cells",
       "sourcePages": "18–19",
       "pointId": "cells-smooth-er",
+      "canonical": "cells-smooth-er",
       "title": "Smooth endoplasmic reticulum · SER",
       "website": "units/cells/index.html#fact-smooth-er",
       "questions": [
@@ -346,6 +378,7 @@
       "unit": "cells",
       "sourcePages": "18–19",
       "pointId": "cells-golgi",
+      "canonical": "cells-golgi",
       "title": "Golgi apparatus",
       "website": "units/cells/index.html#fact-golgi",
       "questions": [
@@ -358,6 +391,7 @@
       "unit": "cells",
       "sourcePages": "18–19",
       "pointId": "cells-vesicle",
+      "canonical": "cells-vesicle",
       "title": "Vesicle",
       "website": "units/cells/index.html#fact-vesicle",
       "questions": [
@@ -370,6 +404,7 @@
       "unit": "cells",
       "sourcePages": "20–21, 27",
       "pointId": "cells-lysosome",
+      "canonical": "cells-lysosome",
       "title": "Lysosome",
       "website": "units/cells/index.html#fact-lysosome",
       "questions": [
@@ -382,6 +417,7 @@
       "unit": "cells",
       "sourcePages": "20–21, 27",
       "pointId": "cells-vacuole",
+      "canonical": "cells-vacuole",
       "title": "Vacuole",
       "website": "units/cells/index.html#fact-vacuole",
       "questions": [
@@ -394,6 +430,7 @@
       "unit": "cells",
       "sourcePages": "20–21, 27",
       "pointId": "cells-central-vacuole",
+      "canonical": "cells-central-vacuole",
       "title": "Central vacuole",
       "website": "units/cells/index.html#fact-central-vacuole",
       "questions": [
@@ -405,6 +442,7 @@
       "unit": "cells",
       "sourcePages": "22–23",
       "pointId": "cells-centrosome",
+      "canonical": "cells-centrosome",
       "title": "Centrosome & centrioles",
       "website": "units/cells/index.html#fact-centrosome",
       "questions": [
@@ -417,6 +455,7 @@
       "unit": "cells",
       "sourcePages": "22–23",
       "pointId": "cells-cilia",
+      "canonical": "cells-cilia",
       "title": "Cilia",
       "website": "units/cells/index.html#fact-cilia",
       "questions": [
@@ -429,6 +468,7 @@
       "unit": "cells",
       "sourcePages": "22–23",
       "pointId": "cells-flagella",
+      "canonical": "cells-flagella",
       "title": "Flagella",
       "website": "units/cells/index.html#fact-flagella",
       "questions": [
@@ -441,6 +481,7 @@
       "unit": "cells",
       "sourcePages": "24–25",
       "pointId": "cells-mitochondria",
+      "canonical": "cells-mitochondria",
       "title": "Mitochondrion · plural: mitochondria",
       "website": "units/cells/index.html#fact-mitochondria",
       "questions": [
@@ -453,6 +494,7 @@
       "unit": "cells",
       "sourcePages": "24–25",
       "pointId": "cells-chloroplast",
+      "canonical": "cells-chloroplast",
       "title": "Chloroplast",
       "website": "units/cells/index.html#fact-chloroplast",
       "questions": [
@@ -465,6 +507,7 @@
       "unit": "cells",
       "sourcePages": "8–9, 26, 28–31",
       "pointId": "cells-wall",
+      "canonical": "cells-wall",
       "title": "Cell wall",
       "website": "units/cells/index.html#fact-wall",
       "questions": [
@@ -476,6 +519,7 @@
       "unit": "cells",
       "sourcePages": "8–9, 26, 28–31",
       "pointId": "cells-comparison",
+      "canonical": "cells-comparison",
       "title": "Animal & plant cells",
       "website": "units/cells/index.html#fact-comparison",
       "questions": [
@@ -483,6 +527,582 @@
         "cells-original-10"
       ],
       "sourceVerified": false
+    },
+    {
+      "unit": "biology",
+      "sourcePages": "3",
+      "pointId": "biology-microscopy-origins",
+      "canonical": "biology-microscopy-origins",
+      "title": "Early microscopy",
+      "website": "units/biology/index.html#point-microscopy-origins",
+      "questions": [
+        "biology-microscopy-origins-evidence"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "biology",
+      "sourcePages": "4",
+      "pointId": "biology-leeuwenhoek",
+      "canonical": "biology-leeuwenhoek",
+      "title": "Antonie van Leeuwenhoek",
+      "website": "units/biology/index.html#point-leeuwenhoek",
+      "questions": [
+        "biology-leeuwenhoek-contribution"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "biology",
+      "sourcePages": "5",
+      "pointId": "biology-hooke",
+      "canonical": "biology-hooke",
+      "title": "Robert Hooke and cork cells",
+      "website": "units/biology/index.html#point-hooke",
+      "questions": [
+        "biology-hooke-cork"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "biology",
+      "sourcePages": "6",
+      "pointId": "biology-schleiden",
+      "canonical": "biology-schleiden",
+      "title": "Matthias Schleiden and plants",
+      "website": "units/biology/index.html#point-schleiden",
+      "questions": [
+        "biology-schleiden-plants"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "biology",
+      "sourcePages": "7",
+      "pointId": "biology-schwann",
+      "canonical": "biology-schwann",
+      "title": "Theodor Schwann and animals",
+      "website": "units/biology/index.html#point-schwann",
+      "questions": [
+        "biology-schwann-animals"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "biology",
+      "sourcePages": "8",
+      "pointId": "biology-virchow",
+      "canonical": "biology-virchow",
+      "title": "Rudolf Virchow and existing cells",
+      "website": "units/biology/index.html#point-virchow",
+      "questions": [
+        "biology-virchow-origin"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "biology",
+      "sourcePages": "9",
+      "pointId": "biology-cell-theory",
+      "canonical": "cells-theory",
+      "title": "Cell theory",
+      "website": "units/biology/index.html#point-cell-theory",
+      "questions": [
+        "biology-cell-theory-tenets"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "biology",
+      "sourcePages": "1, 2, 10",
+      "pointId": "biology-cell-categories",
+      "canonical": "biology-cell-categories",
+      "title": "Cells and the two broad categories",
+      "website": "units/biology/index.html#point-cell-categories",
+      "questions": [
+        "biology-cell-categories-categories"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "biology",
+      "sourcePages": "11, 12, 13",
+      "pointId": "biology-prokaryotic-cells",
+      "canonical": "cells-prokaryote",
+      "title": "Prokaryotic cells",
+      "website": "units/biology/index.html#point-prokaryotic-cells",
+      "questions": [
+        "biology-prokaryotic-cells-identify"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "biology",
+      "sourcePages": "12, 13",
+      "pointId": "biology-bacterial-shapes",
+      "canonical": "biology-bacterial-shapes",
+      "title": "Common bacterial shapes",
+      "website": "units/biology/index.html#point-bacterial-shapes",
+      "questions": [
+        "biology-bacterial-shapes-shape"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "biology",
+      "sourcePages": "14, 15",
+      "pointId": "biology-eukaryotic-cells",
+      "canonical": "cells-eukaryote",
+      "title": "Eukaryotic cells",
+      "website": "units/biology/index.html#point-eukaryotic-cells",
+      "questions": [
+        "biology-eukaryotic-cells-classification"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "biology",
+      "sourcePages": "15",
+      "pointId": "biology-organelles",
+      "canonical": "cells-organelles",
+      "title": "Organelles and compartmentalization",
+      "website": "units/biology/index.html#point-organelles",
+      "questions": [
+        "biology-organelles-function"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "biology",
+      "sourcePages": "16, 17",
+      "pointId": "biology-plant-animal-models",
+      "canonical": "cells-comparison",
+      "title": "Plant and animal cell models",
+      "website": "units/biology/index.html#point-plant-animal-models",
+      "questions": [
+        "biology-plant-animal-models-compare"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "biology",
+      "sourcePages": "18",
+      "pointId": "biology-cilia",
+      "canonical": "cells-cilia",
+      "title": "Cilia",
+      "website": "units/biology/index.html#point-cilia",
+      "questions": [
+        "biology-cilia-movement"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "biology",
+      "sourcePages": "18",
+      "pointId": "biology-flagella",
+      "canonical": "cells-flagella",
+      "title": "Flagella",
+      "website": "units/biology/index.html#point-flagella",
+      "questions": [
+        "biology-flagella-number-length"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "biology",
+      "sourcePages": "19",
+      "pointId": "biology-cell-wall",
+      "canonical": "cells-wall",
+      "title": "Cell wall",
+      "website": "units/biology/index.html#point-cell-wall",
+      "questions": [
+        "biology-cell-wall-materials"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "biology",
+      "sourcePages": "20",
+      "pointId": "biology-plasma-membrane",
+      "canonical": "cells-membrane",
+      "title": "Plasma membrane",
+      "website": "units/biology/index.html#point-plasma-membrane",
+      "questions": [
+        "biology-plasma-membrane-boundary"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "biology",
+      "sourcePages": "21",
+      "pointId": "biology-cytoplasm",
+      "canonical": "cells-cytoplasm",
+      "title": "Cytoplasm",
+      "website": "units/biology/index.html#point-cytoplasm",
+      "questions": [
+        "biology-cytoplasm-location"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "biology",
+      "sourcePages": "21",
+      "pointId": "biology-cytoskeleton",
+      "canonical": "cells-cytoskeleton",
+      "title": "Cytoskeleton and support",
+      "website": "units/biology/index.html#point-cytoskeleton",
+      "questions": [
+        "biology-cytoskeleton-support"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "biology",
+      "sourcePages": "21",
+      "pointId": "biology-cytoplasmic-streaming",
+      "canonical": "biology-cytoplasmic-streaming",
+      "title": "Cytoplasmic streaming",
+      "website": "units/biology/index.html#point-cytoplasmic-streaming",
+      "questions": [
+        "biology-cytoplasmic-streaming-identify"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "biology",
+      "sourcePages": "22",
+      "pointId": "biology-nucleus",
+      "canonical": "cells-nucleus",
+      "title": "Nucleus and hereditary material",
+      "website": "units/biology/index.html#point-nucleus",
+      "questions": [
+        "biology-nucleus-contents"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "biology",
+      "sourcePages": "22",
+      "pointId": "biology-nucleolus",
+      "canonical": "cells-nucleolus",
+      "title": "Nucleolus and ribosome production",
+      "website": "units/biology/index.html#point-nucleolus",
+      "questions": [
+        "biology-nucleolus-production"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "biology",
+      "sourcePages": "23",
+      "pointId": "biology-rough-er",
+      "canonical": "cells-rough-er",
+      "title": "Rough endoplasmic reticulum",
+      "website": "units/biology/index.html#point-rough-er",
+      "questions": [
+        "biology-rough-er-roughness"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "biology",
+      "sourcePages": "23",
+      "pointId": "biology-smooth-er",
+      "canonical": "cells-smooth-er",
+      "title": "Smooth endoplasmic reticulum",
+      "website": "units/biology/index.html#point-smooth-er",
+      "questions": [
+        "biology-smooth-er-lipids"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "biology",
+      "sourcePages": "24",
+      "pointId": "biology-ribosomes",
+      "canonical": "cells-ribosome",
+      "title": "Ribosomes",
+      "website": "units/biology/index.html#point-ribosomes",
+      "questions": [
+        "biology-ribosomes-composition"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "biology",
+      "sourcePages": "24",
+      "pointId": "biology-polysomes",
+      "canonical": "biology-polysomes",
+      "title": "Polysomes",
+      "website": "units/biology/index.html#point-polysomes",
+      "questions": [
+        "biology-polysomes-cluster"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "biology",
+      "sourcePages": "25",
+      "pointId": "biology-golgi",
+      "canonical": "cells-golgi",
+      "title": "Golgi apparatus",
+      "website": "units/biology/index.html#point-golgi",
+      "questions": [
+        "biology-golgi-packaging"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "biology",
+      "sourcePages": "26",
+      "pointId": "biology-mitochondria",
+      "canonical": "cells-mitochondria",
+      "title": "Mitochondria and ATP",
+      "website": "units/biology/index.html#point-mitochondria",
+      "questions": [
+        "biology-mitochondria-energy",
+        "biology-mitochondria-respiration"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "biology",
+      "sourcePages": "27",
+      "pointId": "biology-vacuoles",
+      "canonical": "cells-vacuole",
+      "title": "Vacuoles",
+      "website": "units/biology/index.html#point-vacuoles",
+      "questions": [
+        "biology-vacuoles-storage"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "biology",
+      "sourcePages": "25, 27",
+      "pointId": "biology-vesicles",
+      "canonical": "cells-vesicle",
+      "title": "Vesicles",
+      "website": "units/biology/index.html#point-vesicles",
+      "questions": [
+        "biology-vesicles-carrier"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "biology",
+      "sourcePages": "27",
+      "pointId": "biology-lysosomes",
+      "canonical": "cells-lysosome",
+      "title": "Lysosomes",
+      "website": "units/biology/index.html#point-lysosomes",
+      "questions": [
+        "biology-lysosomes-enzymes"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "biology",
+      "sourcePages": "28",
+      "pointId": "biology-chloroplasts",
+      "canonical": "cells-chloroplast",
+      "title": "Chloroplasts and thylakoids",
+      "website": "units/biology/index.html#point-chloroplasts",
+      "questions": [
+        "biology-chloroplasts-stack"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "biology",
+      "sourcePages": "29, 30, 31",
+      "pointId": "biology-fluid-mosaic",
+      "canonical": "cells-bilayer",
+      "title": "Phospholipid bilayer and fluid mosaic",
+      "website": "units/biology/index.html#point-fluid-mosaic",
+      "questions": [
+        "biology-fluid-mosaic-orientation",
+        "biology-fluid-mosaic-model"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "biology",
+      "sourcePages": "32",
+      "pointId": "biology-selective-permeability",
+      "canonical": "biology-selective-permeability",
+      "title": "Selective permeability and molecule properties",
+      "website": "units/biology/index.html#point-selective-permeability",
+      "questions": [
+        "biology-selective-permeability-size-charge"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "biology",
+      "sourcePages": "33",
+      "pointId": "biology-diffusion",
+      "canonical": "biology-diffusion",
+      "title": "Diffusion and passive transport",
+      "website": "units/biology/index.html#point-diffusion",
+      "questions": [
+        "biology-diffusion-direction",
+        "biology-diffusion-equilibrium"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "biology",
+      "sourcePages": "34",
+      "pointId": "biology-facilitated-diffusion",
+      "canonical": "biology-facilitated-diffusion",
+      "title": "Facilitated diffusion",
+      "website": "units/biology/index.html#point-facilitated-diffusion",
+      "questions": [
+        "biology-facilitated-diffusion-distinguish",
+        "biology-facilitated-diffusion-chloride"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "biology",
+      "sourcePages": "35",
+      "pointId": "biology-diffusion-factors",
+      "canonical": "biology-diffusion-factors",
+      "title": "Factors affecting diffusion",
+      "website": "units/biology/index.html#point-diffusion-factors",
+      "questions": [
+        "biology-diffusion-factors-gradient",
+        "biology-diffusion-factors-controlled"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "biology",
+      "sourcePages": "36",
+      "pointId": "biology-osmosis",
+      "canonical": "biology-osmosis",
+      "title": "Osmosis",
+      "website": "units/biology/index.html#point-osmosis",
+      "questions": [
+        "biology-osmosis-net-water",
+        "biology-osmosis-substance"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "biology",
+      "sourcePages": "36",
+      "pointId": "biology-tonicity",
+      "canonical": "biology-tonicity",
+      "title": "Isotonic, hypertonic, and hypotonic solutions",
+      "website": "units/biology/index.html#point-tonicity",
+      "questions": [
+        "biology-tonicity-hypertonic",
+        "biology-tonicity-three-cases",
+        "biology-tonicity-plant-cell"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "biology",
+      "sourcePages": "37",
+      "pointId": "biology-active-transport",
+      "canonical": "biology-active-transport",
+      "title": "Active transport and cellular energy",
+      "website": "units/biology/index.html#point-active-transport",
+      "questions": [
+        "biology-active-transport-against-gradient",
+        "biology-active-transport-compare"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "biology",
+      "sourcePages": "38",
+      "pointId": "biology-phagocytosis",
+      "canonical": "biology-phagocytosis",
+      "title": "Phagocytosis",
+      "website": "units/biology/index.html#point-phagocytosis",
+      "questions": [
+        "biology-phagocytosis-particle"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "biology",
+      "sourcePages": "38",
+      "pointId": "biology-pinocytosis",
+      "canonical": "biology-pinocytosis",
+      "title": "Pinocytosis",
+      "website": "units/biology/index.html#point-pinocytosis",
+      "questions": [
+        "biology-pinocytosis-fluid"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "biology",
+      "sourcePages": "38",
+      "pointId": "biology-exocytosis",
+      "canonical": "biology-exocytosis",
+      "title": "Exocytosis and secretion",
+      "website": "units/biology/index.html#point-exocytosis",
+      "questions": [
+        "biology-exocytosis-release"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "biology",
+      "sourcePages": "38",
+      "pointId": "biology-protein-pumps",
+      "canonical": "biology-protein-pumps",
+      "title": "Protein pumps",
+      "website": "units/biology/index.html#point-protein-pumps",
+      "questions": [
+        "biology-protein-pumps-pump-channel",
+        "biology-protein-pumps-inhibition"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "biology",
+      "sourcePages": "39",
+      "pointId": "biology-membrane-trafficking",
+      "canonical": "biology-membrane-trafficking",
+      "title": "Organelle membranes and vesicle traffic",
+      "website": "units/biology/index.html#point-membrane-trafficking",
+      "questions": [
+        "biology-membrane-trafficking-route"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "biology",
+      "sourcePages": "40, 41, 42",
+      "pointId": "biology-surface-area-volume",
+      "canonical": "biology-surface-area-volume",
+      "title": "Calculating surface area and volume",
+      "website": "units/biology/index.html#point-surface-area-volume",
+      "questions": [
+        "biology-surface-area-volume-cube",
+        "biology-surface-area-volume-scaling"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "biology",
+      "sourcePages": "43",
+      "pointId": "biology-cell-size-limits",
+      "canonical": "biology-cell-size-limits",
+      "title": "Surface area, volume, and cell-size limits",
+      "website": "units/biology/index.html#point-cell-size-limits",
+      "questions": [
+        "biology-cell-size-limits-exchange",
+        "biology-cell-size-limits-division"
+      ],
+      "sourceVerified": true
     }
   ],
   "sourcePages": [
@@ -1100,6 +1720,751 @@
         "levels-photo-52"
       ],
       "status": "Verified"
+    },
+    {
+      "unit": "biology",
+      "page": 1,
+      "points": [
+        "biology-cell-categories"
+      ],
+      "website": "units/biology/index.html#source-1",
+      "questions": [
+        "biology-cell-categories-categories"
+      ],
+      "status": "Title/agenda preserved; no separate assessment required",
+      "clarifications": []
+    },
+    {
+      "unit": "biology",
+      "page": 2,
+      "points": [
+        "biology-cell-categories"
+      ],
+      "website": "units/biology/index.html#source-2",
+      "questions": [
+        "biology-cell-categories-categories"
+      ],
+      "status": "Title/agenda preserved; no separate assessment required",
+      "clarifications": []
+    },
+    {
+      "unit": "biology",
+      "page": 3,
+      "points": [
+        "biology-microscopy-origins"
+      ],
+      "website": "units/biology/index.html#source-3",
+      "questions": [
+        "biology-microscopy-origins-evidence"
+      ],
+      "status": "Verified against supplied PDF",
+      "clarifications": []
+    },
+    {
+      "unit": "biology",
+      "page": 4,
+      "points": [
+        "biology-leeuwenhoek"
+      ],
+      "website": "units/biology/index.html#source-4",
+      "questions": [
+        "biology-leeuwenhoek-contribution"
+      ],
+      "status": "Verified against supplied PDF",
+      "clarifications": [
+        {
+          "pointId": "biology-leeuwenhoek",
+          "text": "The slide credits him with the first microscope. Earlier microscopes existed; his important contribution was making effective instruments and observing microorganisms."
+        }
+      ]
+    },
+    {
+      "unit": "biology",
+      "page": 5,
+      "points": [
+        "biology-hooke"
+      ],
+      "website": "units/biology/index.html#source-5",
+      "questions": [
+        "biology-hooke-cork"
+      ],
+      "status": "Verified against supplied PDF",
+      "clarifications": []
+    },
+    {
+      "unit": "biology",
+      "page": 6,
+      "points": [
+        "biology-schleiden"
+      ],
+      "website": "units/biology/index.html#source-6",
+      "questions": [
+        "biology-schleiden-plants"
+      ],
+      "status": "Verified against supplied PDF",
+      "clarifications": [
+        {
+          "pointId": "biology-schleiden",
+          "text": "The slide spells his first name Mattias; the conventional spelling is Matthias."
+        }
+      ]
+    },
+    {
+      "unit": "biology",
+      "page": 7,
+      "points": [
+        "biology-schwann"
+      ],
+      "website": "units/biology/index.html#source-7",
+      "questions": [
+        "biology-schwann-animals"
+      ],
+      "status": "Verified against supplied PDF",
+      "clarifications": []
+    },
+    {
+      "unit": "biology",
+      "page": 8,
+      "points": [
+        "biology-virchow"
+      ],
+      "website": "units/biology/index.html#source-8",
+      "questions": [
+        "biology-virchow-origin"
+      ],
+      "status": "Verified against supplied PDF",
+      "clarifications": []
+    },
+    {
+      "unit": "biology",
+      "page": 9,
+      "points": [
+        "biology-cell-theory"
+      ],
+      "website": "units/biology/index.html#source-9",
+      "questions": [
+        "biology-cell-theory-tenets"
+      ],
+      "status": "Verified against supplied PDF",
+      "clarifications": []
+    },
+    {
+      "unit": "biology",
+      "page": 10,
+      "points": [
+        "biology-cell-categories"
+      ],
+      "website": "units/biology/index.html#source-10",
+      "questions": [
+        "biology-cell-categories-categories"
+      ],
+      "status": "Verified against supplied PDF",
+      "clarifications": []
+    },
+    {
+      "unit": "biology",
+      "page": 11,
+      "points": [
+        "biology-prokaryotic-cells"
+      ],
+      "website": "units/biology/index.html#source-11",
+      "questions": [
+        "biology-prokaryotic-cells-identify"
+      ],
+      "status": "Verified against supplied PDF",
+      "clarifications": [
+        {
+          "pointId": "biology-prokaryotic-cells",
+          "text": "The slide calls cyanobacteria unicellular algae and explains kary as genes. Cyanobacteria are photosynthetic bacteria, and the root refers to nucleus. Not all cyanobacteria occur as isolated single cells."
+        }
+      ]
+    },
+    {
+      "unit": "biology",
+      "page": 12,
+      "points": [
+        "biology-prokaryotic-cells",
+        "biology-bacterial-shapes"
+      ],
+      "website": "units/biology/index.html#source-12",
+      "questions": [
+        "biology-prokaryotic-cells-identify",
+        "biology-bacterial-shapes-shape"
+      ],
+      "status": "Verified against supplied PDF",
+      "clarifications": [
+        {
+          "pointId": "biology-prokaryotic-cells",
+          "text": "The slide calls cyanobacteria unicellular algae and explains kary as genes. Cyanobacteria are photosynthetic bacteria, and the root refers to nucleus. Not all cyanobacteria occur as isolated single cells."
+        }
+      ]
+    },
+    {
+      "unit": "biology",
+      "page": 13,
+      "points": [
+        "biology-prokaryotic-cells",
+        "biology-bacterial-shapes"
+      ],
+      "website": "units/biology/index.html#source-13",
+      "questions": [
+        "biology-prokaryotic-cells-identify",
+        "biology-bacterial-shapes-shape"
+      ],
+      "status": "Verified against supplied PDF",
+      "clarifications": [
+        {
+          "pointId": "biology-prokaryotic-cells",
+          "text": "The slide calls cyanobacteria unicellular algae and explains kary as genes. Cyanobacteria are photosynthetic bacteria, and the root refers to nucleus. Not all cyanobacteria occur as isolated single cells."
+        }
+      ]
+    },
+    {
+      "unit": "biology",
+      "page": 14,
+      "points": [
+        "biology-eukaryotic-cells"
+      ],
+      "website": "units/biology/index.html#source-14",
+      "questions": [
+        "biology-eukaryotic-cells-classification"
+      ],
+      "status": "Verified against supplied PDF",
+      "clarifications": [
+        {
+          "pointId": "biology-eukaryotic-cells",
+          "text": "The slide list is not exhaustive: eukaryotes include unicellular algae as well. Descriptions of size and organelles refer to typical cells, not absolute rules for every specialized mature cell."
+        }
+      ]
+    },
+    {
+      "unit": "biology",
+      "page": 15,
+      "points": [
+        "biology-eukaryotic-cells",
+        "biology-organelles"
+      ],
+      "website": "units/biology/index.html#source-15",
+      "questions": [
+        "biology-eukaryotic-cells-classification",
+        "biology-organelles-function"
+      ],
+      "status": "Verified against supplied PDF",
+      "clarifications": [
+        {
+          "pointId": "biology-eukaryotic-cells",
+          "text": "The slide list is not exhaustive: eukaryotes include unicellular algae as well. Descriptions of size and organelles refer to typical cells, not absolute rules for every specialized mature cell."
+        }
+      ]
+    },
+    {
+      "unit": "biology",
+      "page": 16,
+      "points": [
+        "biology-plant-animal-models"
+      ],
+      "website": "units/biology/index.html#source-16",
+      "questions": [
+        "biology-plant-animal-models-compare"
+      ],
+      "status": "Verified against supplied PDF",
+      "clarifications": [
+        {
+          "pointId": "biology-plant-animal-models",
+          "text": "The lists show selected labels, not everything a plant or animal cell can contain. For example, omission of nucleolus from the animal list does not mean animal cells lack it."
+        }
+      ]
+    },
+    {
+      "unit": "biology",
+      "page": 17,
+      "points": [
+        "biology-plant-animal-models"
+      ],
+      "website": "units/biology/index.html#source-17",
+      "questions": [
+        "biology-plant-animal-models-compare"
+      ],
+      "status": "Verified against supplied PDF",
+      "clarifications": [
+        {
+          "pointId": "biology-plant-animal-models",
+          "text": "The lists show selected labels, not everything a plant or animal cell can contain. For example, omission of nucleolus from the animal list does not mean animal cells lack it."
+        }
+      ]
+    },
+    {
+      "unit": "biology",
+      "page": 18,
+      "points": [
+        "biology-cilia",
+        "biology-flagella"
+      ],
+      "website": "units/biology/index.html#source-18",
+      "questions": [
+        "biology-cilia-movement",
+        "biology-flagella-number-length"
+      ],
+      "status": "Verified against supplied PDF",
+      "clarifications": [
+        {
+          "pointId": "biology-flagella",
+          "text": "The microtubule description concerns eukaryotic cilia and flagella. Bacterial flagella have a different structure."
+        }
+      ]
+    },
+    {
+      "unit": "biology",
+      "page": 19,
+      "points": [
+        "biology-cell-wall"
+      ],
+      "website": "units/biology/index.html#source-19",
+      "questions": [
+        "biology-cell-wall-materials"
+      ],
+      "status": "Verified against supplied PDF",
+      "clarifications": [
+        {
+          "pointId": "biology-cell-wall",
+          "text": "The slide groups all algae with cellulose-walled plants. Algal coverings vary; cellulose is common in some algal groups but is not a universal algal-wall rule."
+        }
+      ]
+    },
+    {
+      "unit": "biology",
+      "page": 20,
+      "points": [
+        "biology-plasma-membrane"
+      ],
+      "website": "units/biology/index.html#source-20",
+      "questions": [
+        "biology-plasma-membrane-boundary"
+      ],
+      "status": "Verified against supplied PDF",
+      "clarifications": []
+    },
+    {
+      "unit": "biology",
+      "page": 21,
+      "points": [
+        "biology-cytoplasm",
+        "biology-cytoskeleton",
+        "biology-cytoplasmic-streaming"
+      ],
+      "website": "units/biology/index.html#source-21",
+      "questions": [
+        "biology-cytoplasm-location",
+        "biology-cytoskeleton-support",
+        "biology-cytoplasmic-streaming-identify"
+      ],
+      "status": "Verified against supplied PDF",
+      "clarifications": []
+    },
+    {
+      "unit": "biology",
+      "page": 22,
+      "points": [
+        "biology-nucleus",
+        "biology-nucleolus"
+      ],
+      "website": "units/biology/index.html#source-22",
+      "questions": [
+        "biology-nucleus-contents",
+        "biology-nucleolus-production"
+      ],
+      "status": "Verified against supplied PDF",
+      "clarifications": []
+    },
+    {
+      "unit": "biology",
+      "page": 23,
+      "points": [
+        "biology-rough-er",
+        "biology-smooth-er"
+      ],
+      "website": "units/biology/index.html#source-23",
+      "questions": [
+        "biology-rough-er-roughness",
+        "biology-smooth-er-lipids"
+      ],
+      "status": "Verified against supplied PDF",
+      "clarifications": [
+        {
+          "pointId": "biology-rough-er",
+          "text": "The slide says ER is continuous with the cell membrane. ER is continuous with the outer nuclear envelope; transfer toward the Golgi and plasma membrane occurs through membrane traffic, rather than one uninterrupted ER-to-cell-surface membrane."
+        }
+      ]
+    },
+    {
+      "unit": "biology",
+      "page": 24,
+      "points": [
+        "biology-ribosomes",
+        "biology-polysomes"
+      ],
+      "website": "units/biology/index.html#source-24",
+      "questions": [
+        "biology-ribosomes-composition",
+        "biology-polysomes-cluster"
+      ],
+      "status": "Verified against supplied PDF",
+      "clarifications": [
+        {
+          "pointId": "biology-ribosomes",
+          "text": "The source mentions strands of rRNA but leaves out ribosomal proteins. Both are components of a ribosome."
+        },
+        {
+          "pointId": "biology-polysomes",
+          "text": "The slide associates polysomes with proteins needed within the cell. Polysomes are not limited to that destination; free or ER-associated ribosomes may form them."
+        }
+      ]
+    },
+    {
+      "unit": "biology",
+      "page": 25,
+      "points": [
+        "biology-golgi",
+        "biology-vesicles"
+      ],
+      "website": "units/biology/index.html#source-25",
+      "questions": [
+        "biology-golgi-packaging",
+        "biology-vesicles-carrier"
+      ],
+      "status": "Verified against supplied PDF",
+      "clarifications": [
+        {
+          "pointId": "biology-golgi",
+          "text": "The slide says Golgi may connect to ER. Teach the transport-vesicle connection rather than a general claim of direct, continuous membrane between the two organelles."
+        }
+      ]
+    },
+    {
+      "unit": "biology",
+      "page": 26,
+      "points": [
+        "biology-mitochondria"
+      ],
+      "website": "units/biology/index.html#source-26",
+      "questions": [
+        "biology-mitochondria-energy",
+        "biology-mitochondria-respiration"
+      ],
+      "status": "Verified against supplied PDF",
+      "clarifications": []
+    },
+    {
+      "unit": "biology",
+      "page": 27,
+      "points": [
+        "biology-vacuoles",
+        "biology-vesicles",
+        "biology-lysosomes"
+      ],
+      "website": "units/biology/index.html#source-27",
+      "questions": [
+        "biology-vacuoles-storage",
+        "biology-vesicles-carrier",
+        "biology-lysosomes-enzymes"
+      ],
+      "status": "Verified against supplied PDF",
+      "clarifications": []
+    },
+    {
+      "unit": "biology",
+      "page": 28,
+      "points": [
+        "biology-chloroplasts"
+      ],
+      "website": "units/biology/index.html#source-28",
+      "questions": [
+        "biology-chloroplasts-stack"
+      ],
+      "status": "Verified against supplied PDF",
+      "clarifications": [
+        {
+          "pointId": "biology-chloroplasts",
+          "text": "The slide calls the stacks thylakoids and puts all photosynthesis enzymes there. Distinguish individual thylakoids, grana stacks, and stroma; not all photosynthetic reactions occur in the thylakoid membrane."
+        }
+      ]
+    },
+    {
+      "unit": "biology",
+      "page": 29,
+      "points": [
+        "biology-fluid-mosaic"
+      ],
+      "website": "units/biology/index.html#source-29",
+      "questions": [
+        "biology-fluid-mosaic-orientation",
+        "biology-fluid-mosaic-model"
+      ],
+      "status": "Verified against supplied PDF",
+      "clarifications": [
+        {
+          "pointId": "biology-fluid-mosaic",
+          "text": "Cholesterol is prominent in animal plasma-membrane models; do not assume every membrane in every organism has the same lipid composition."
+        }
+      ]
+    },
+    {
+      "unit": "biology",
+      "page": 30,
+      "points": [
+        "biology-fluid-mosaic"
+      ],
+      "website": "units/biology/index.html#source-30",
+      "questions": [
+        "biology-fluid-mosaic-orientation",
+        "biology-fluid-mosaic-model"
+      ],
+      "status": "Verified against supplied PDF",
+      "clarifications": [
+        {
+          "pointId": "biology-fluid-mosaic",
+          "text": "Cholesterol is prominent in animal plasma-membrane models; do not assume every membrane in every organism has the same lipid composition."
+        }
+      ]
+    },
+    {
+      "unit": "biology",
+      "page": 31,
+      "points": [
+        "biology-fluid-mosaic"
+      ],
+      "website": "units/biology/index.html#source-31",
+      "questions": [
+        "biology-fluid-mosaic-orientation",
+        "biology-fluid-mosaic-model"
+      ],
+      "status": "Verified against supplied PDF",
+      "clarifications": [
+        {
+          "pointId": "biology-fluid-mosaic",
+          "text": "Cholesterol is prominent in animal plasma-membrane models; do not assume every membrane in every organism has the same lipid composition."
+        }
+      ]
+    },
+    {
+      "unit": "biology",
+      "page": 32,
+      "points": [
+        "biology-selective-permeability"
+      ],
+      "website": "units/biology/index.html#source-32",
+      "questions": [
+        "biology-selective-permeability-size-charge"
+      ],
+      "status": "Verified against supplied PDF",
+      "clarifications": [
+        {
+          "pointId": "biology-selective-permeability",
+          "text": "The slide says small molecules pass freely. This is too broad: charge, polarity, and lipid solubility matter. The page 34 picture also wrongly depicts Cl- moving by simple diffusion through the lipid bilayer; ions need transport proteins."
+        }
+      ]
+    },
+    {
+      "unit": "biology",
+      "page": 33,
+      "points": [
+        "biology-diffusion"
+      ],
+      "website": "units/biology/index.html#source-33",
+      "questions": [
+        "biology-diffusion-direction",
+        "biology-diffusion-equilibrium"
+      ],
+      "status": "Verified against supplied PDF",
+      "clarifications": [
+        {
+          "pointId": "biology-diffusion",
+          "text": "High-to-low describes net movement, not a rule that every individual molecule moves in only one direction."
+        }
+      ]
+    },
+    {
+      "unit": "biology",
+      "page": 34,
+      "points": [
+        "biology-facilitated-diffusion"
+      ],
+      "website": "units/biology/index.html#source-34",
+      "questions": [
+        "biology-facilitated-diffusion-distinguish",
+        "biology-facilitated-diffusion-chloride"
+      ],
+      "status": "Verified against supplied PDF",
+      "clarifications": [
+        {
+          "pointId": "biology-facilitated-diffusion",
+          "text": "The source names channels only, but facilitated diffusion includes carriers. Its Cl- diagram must not be used as evidence that a charged ion freely crosses the lipid bilayer."
+        }
+      ]
+    },
+    {
+      "unit": "biology",
+      "page": 35,
+      "points": [
+        "biology-diffusion-factors"
+      ],
+      "website": "units/biology/index.html#source-35",
+      "questions": [
+        "biology-diffusion-factors-gradient",
+        "biology-diffusion-factors-controlled"
+      ],
+      "status": "Verified against supplied PDF",
+      "clarifications": [
+        {
+          "pointId": "biology-diffusion-factors",
+          "text": "The slide says neutral molecules freely cross membranes. Neutrality alone is insufficient: large polar molecules can still face a barrier. Size, polarity, charge, and the pathway all matter."
+        }
+      ]
+    },
+    {
+      "unit": "biology",
+      "page": 36,
+      "points": [
+        "biology-osmosis",
+        "biology-tonicity"
+      ],
+      "website": "units/biology/index.html#source-36",
+      "questions": [
+        "biology-osmosis-net-water",
+        "biology-osmosis-substance",
+        "biology-tonicity-hypertonic",
+        "biology-tonicity-three-cases",
+        "biology-tonicity-plant-cell"
+      ],
+      "status": "Verified against supplied PDF",
+      "clarifications": [
+        {
+          "pointId": "biology-osmosis",
+          "text": "The source says water moves in an attempt to equilibrate. Water has no intention; random motion and differences in water potential produce net movement. The simple solute comparison assumes similar pressures and a nonpenetrating solute."
+        },
+        {
+          "pointId": "biology-tonicity",
+          "text": "Interpret concentration as effective nonpenetrating-solute concentration. Isotonic does not mean water molecules stop. Plant cell walls constrain swelling, so plant and animal cells need not show identical shape changes."
+        }
+      ]
+    },
+    {
+      "unit": "biology",
+      "page": 37,
+      "points": [
+        "biology-active-transport"
+      ],
+      "website": "units/biology/index.html#source-37",
+      "questions": [
+        "biology-active-transport-against-gradient",
+        "biology-active-transport-compare"
+      ],
+      "status": "Verified against supplied PDF",
+      "clarifications": [
+        {
+          "pointId": "biology-active-transport",
+          "text": "ATP directly powers primary active transport. Secondary active transport uses stored gradient energy indirectly supplied by metabolism. Large cargo generally uses vesicular transport rather than crossing through a pump as an intact large package."
+        }
+      ]
+    },
+    {
+      "unit": "biology",
+      "page": 38,
+      "points": [
+        "biology-phagocytosis",
+        "biology-pinocytosis",
+        "biology-exocytosis",
+        "biology-protein-pumps"
+      ],
+      "website": "units/biology/index.html#source-38",
+      "questions": [
+        "biology-phagocytosis-particle",
+        "biology-pinocytosis-fluid",
+        "biology-exocytosis-release",
+        "biology-protein-pumps-pump-channel",
+        "biology-protein-pumps-inhibition"
+      ],
+      "status": "Verified against supplied PDF",
+      "clarifications": []
+    },
+    {
+      "unit": "biology",
+      "page": 39,
+      "points": [
+        "biology-membrane-trafficking"
+      ],
+      "website": "units/biology/index.html#source-39",
+      "questions": [
+        "biology-membrane-trafficking-route"
+      ],
+      "status": "Verified against supplied PDF",
+      "clarifications": [
+        {
+          "pointId": "biology-membrane-trafficking",
+          "text": "The slide calls organelle membranes identical to the plasma membrane and mentions cholesterol everywhere. Membranes share a general bilayer plan but differ in proteins and lipids. Its ER-to-Golgi carrier is better described as a transport vesicle than a large vacuole."
+        }
+      ]
+    },
+    {
+      "unit": "biology",
+      "page": 40,
+      "points": [
+        "biology-surface-area-volume"
+      ],
+      "website": "units/biology/index.html#source-40",
+      "questions": [
+        "biology-surface-area-volume-cube",
+        "biology-surface-area-volume-scaling"
+      ],
+      "status": "Verified against supplied PDF",
+      "clarifications": []
+    },
+    {
+      "unit": "biology",
+      "page": 41,
+      "points": [
+        "biology-surface-area-volume"
+      ],
+      "website": "units/biology/index.html#source-41",
+      "questions": [
+        "biology-surface-area-volume-cube",
+        "biology-surface-area-volume-scaling"
+      ],
+      "status": "Verified against supplied PDF",
+      "clarifications": []
+    },
+    {
+      "unit": "biology",
+      "page": 42,
+      "points": [
+        "biology-surface-area-volume"
+      ],
+      "website": "units/biology/index.html#source-42",
+      "questions": [
+        "biology-surface-area-volume-cube",
+        "biology-surface-area-volume-scaling"
+      ],
+      "status": "Verified against supplied PDF",
+      "clarifications": []
+    },
+    {
+      "unit": "biology",
+      "page": 43,
+      "points": [
+        "biology-cell-size-limits"
+      ],
+      "website": "units/biology/index.html#source-43",
+      "questions": [
+        "biology-cell-size-limits-exchange",
+        "biology-cell-size-limits-division"
+      ],
+      "status": "Verified against supplied PDF",
+      "clarifications": [
+        {
+          "pointId": "biology-cell-size-limits",
+          "text": "The source ends with divide or die. Treat this as a simplified illustration of growth limits, not a universal outcome: cells can stop growing or use shapes and structures that improve exchange."
+        }
+      ]
     }
   ]
 }

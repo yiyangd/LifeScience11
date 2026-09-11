@@ -9,12 +9,13 @@ Public site: https://yiyangd.github.io/LifeScience11/
 | Lesson | Learning objectives | Scored questions | Source verification |
 | --- | ---: | ---: | --- |
 | Levels of Organization Notes | 10 | 59 | Checked against the supplied 52-page PDF |
+| Cell Biology | 47 | 59 | Checked against the supplied 43-page PDF |
 | Concept 1 · Cell Theory and Organelles | 27 | 37 | Existing website checked; original 31-page source missing |
-| Combined | 37 | 96 | See limitations below |
+| Combined, distinct concepts | 61 | 155 | See counting rule and limitations below |
 
 Two ambiguous original image exercises (Levels PDF pages 38 and 50) remain as unscored discussions in the original interactive practice. They are excluded from unit and combined test scores. All 43 original picture exercises and eight existing concept questions are retained. All ten original cell questions are retained, with 27 additional questions checking individual objectives.
 
-The count represents named learning objectives, grouping structure, function, and examples. Related statements across the units overlap, but the complete objectives have distinct requirements; no full objectives were removed during deduplication. This is not a count of every individual factual statement.
+The lessons contain 84 objective entries. The Cell Biology lecture explicitly links 23 repeated cell/structure concepts to Concept 1, giving 61 distinct named concepts after deduplication. Each lesson retains its complete details, examples and questions. These are grouped learning objectives, not counts of every individual factual statement. Shared-concept IDs are listed in the coverage table.
 
 ## Learning and assessment
 
@@ -24,10 +25,13 @@ The count represents named learning objectives, grouping structure, function, an
 - Question order is shuffled while question IDs preserve answer alignment.
 - Study marks, saved attempts, original practice answers, and mistakes persist in this browser using localStorage. They do not sync between devices or browsers.
 - The seven remaining curriculum topics are clearly marked as pending.
+- Cell Biology includes three interactive activities: transport classification, osmosis predictions, and cell surface-area/volume calculations.
+- Its 43 source pages retain the original images and extracted text, with readable teaching notes and explicit corrections for source inaccuracies.
+- When a combined test grows with new course material, previously saved answers are preserved and new questions are appended.
 
 ## Source coverage and limitations
 
-See [the readable coverage table](docs/coverage.html) and [the complete mapping](docs/coverage.json). The Levels mapping includes all 52 PDF pages, learning destinations, question IDs, and discussion status. An editable original PowerPoint was not available. Original cell PDF/PPT page references were inherited from the prior website and are explicitly unverified. Complete source coverage for the cell lesson cannot be claimed until the source is supplied.
+See [the readable coverage table](docs/coverage.html) and [the complete mapping](docs/coverage.json). They include all 52 Levels PDF pages and all 43 Cell Biology pages, learning destinations, question IDs, and clarification notes. Cell Biology is a distinct lecture, not the missing 31-page Concept 1 source. Concept 1 page references therefore remain inherited and unverified. No editable original PowerPoint was available.
 
 Original lesson assets, bilingual notes, corrective science notes, and cited sources are retained. The Levels lesson defaults to English and offers Chinese/bilingual display. The existing cell lesson retains its bilingual instruction; the unified assessments use English, matching the course source language.
 
@@ -56,4 +60,4 @@ GitHub Pages publishes the `main` branch, repository root. `.nojekyll` keeps the
 
 ## Validation
 
-The content validator checks all objective/question references, unique question IDs, valid answer keys, local links and assets, and score correctness independent of question order. Browser checks exercised the 96-question combined exam, saved attempts, immediate/delayed feedback, mistake recovery, unit pools, learning progress, lesson deep links, image interactions, and desktop/mobile layouts. Validation details are recorded in [docs/validation.md](docs/validation.md).
+The content validator checks all objective/question references, unique question IDs, valid answer keys, local links and assets, and score correctness independent of question order. Browser checks exercise the combined exam, preservation of the original 96-question answers, new questions, saved attempts, immediate/delayed feedback, mistake recovery, unit pools, learning progress, lesson deep links, image interactions, and desktop/mobile layouts. Validation details are recorded in [docs/validation.md](docs/validation.md).
