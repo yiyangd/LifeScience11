@@ -25,7 +25,8 @@ The lessons contain 84 objective entries. The Cell Biology lecture explicitly li
 - Question order is shuffled while question IDs preserve answer alignment.
 - Study marks, saved attempts, original practice answers, and mistakes persist in this browser using localStorage. They do not sync between devices or browsers.
 - The seven remaining curriculum topics are clearly marked as pending.
-- Cell Biology includes three interactive activities: transport classification, osmosis predictions, and cell surface-area/volume calculations.
+- Cell Biology includes six interactive activities: a cell-theory timeline, structure/function matching, a secreted-protein route with playback, transport classification, osmosis predictions, and cell surface-area/volume calculations. The course homepage and lesson navigation link to the activity collection.
+- The three sequencing/matching challenges support drag, click or keyboard controls, explanations, retry and saved activity state. Their practice results are separate from the scored quiz bank. Supplemental historical dates are identified and linked to OpenStax.
 - Its cell atlas reuses the companion lesson's animal and plant diagrams with 15 selectable structure markers. The dark navigation, figure-and-notes layout, and quiz cards follow the existing course style.
 - All 47 Cell Biology objective pages show their source figures beside readable notes and include an inline quiz. These use the same 59 question IDs as the unit test, with saved drafts, checked answers, explanations and shared mistake review.
 - Its 43 source pages retain the original images and extracted text, with readable teaching notes and explicit corrections for source inaccuracies.

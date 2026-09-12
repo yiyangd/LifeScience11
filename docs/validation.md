@@ -23,6 +23,9 @@
 - Animal and plant cell atlas selection was checked for all 15 markers. The plant membrane and wall markers were adjusted to the image's inner boundary and wall band in both lessons.
 - The new lesson follows the existing dark Cell Atlas navigation, diagram-and-notes layout and course quiz controls. The atlas, objective pages and inline quiz were visually checked at desktop and 390-pixel mobile widths; 768- and 1024-pixel widths were checked for overflow.
 - Interactive checks cover hypertonic/hypotonic/isotonic cases, six transport scenarios, and cube sizes 1, 2, 3 and 10.
+- New activity checks cover five timeline events, six one-to-one structure/function matches and five secretion steps. Correct and incorrect results, drag and click controls, keyboard focus, repeated attempts, refresh persistence, completion indicators, and quiz independence were checked.
+- Protein playback was checked through play, pause, manual stepping, replay, editing the route and navigating away. Timers stop when leaving or resetting the activity.
+- New history dates use the cited OpenStax account and are labeled as supplemental to the lecture; Virchow is credited with popularizing the principle rather than discovering cell division first. The secretion route explicitly distinguishes ER-to-Golgi and Golgi-to-surface vesicles.
 - The source's misleading chloride diagram and other errors are explicitly clarified; plant-cell plasmolysis is included in the notes and question bank.
 - Grading tested for all-correct, all-wrong, unanswered, and reversed question order.
 - Desktop and 390-pixel mobile layouts, loaded images, and 200% text setting checked.

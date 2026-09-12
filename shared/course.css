@@ -7,3 +7,5 @@ body.course-unit{--ink:#163a59;--muted:#52677d;--paper:#f3f6fa;--green:#a5ece2;-
 .material-card+.material-card{margin-top:14px}
 @media(max-width:760px){.study-side{order:0}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+
+.home-interactive{border-top:1px solid #ffffff36;margin-top:24px;padding-top:24px}.home-interactive h2{font-size:20px}.home-interactive p{font-size:14px}.home-interactive .course-button{font-size:14px}@media(max-width:760px){.home-interactive{padding-top:18px;margin-top:18px}.home-interactive p{max-width:550px}}
