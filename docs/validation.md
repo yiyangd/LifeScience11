@@ -31,6 +31,15 @@
 - Desktop and 390-pixel mobile layouts, loaded images, and 200% text setting checked.
 - No page JavaScript exceptions or failed site requests observed in the full local flow.
 
+## Language modes
+
+- English, Chinese and bilingual display are available on the course homepage, Cell Biology and Concept 1, and share the remembered preference with the existing Levels selector.
+- The translation validator checks all 47 Cell Biology objectives, all 27 Concept 1 objectives and every stem, option and explanation in the 155-question scored bank. Incorrect options retain their original meaning and answer keys are unchanged.
+- Browser checks cover every Cell Biology objective, all 59 inline questions, all ten original Concept 1 questions and all 15 cell-atlas markers. The Cell Biology unit test was completed in Chinese with delayed feedback and a 59/59 result.
+- Switching modes preserves selected and checked answers, study marks, diagram selection, sequencing order, matching assignments, slider values and protein playback. Reloading retains the language and stored progress; moving between lessons retains the language preference.
+- Correct and incorrect activity feedback, including all six matching and six transport explanations, was checked for complete translation. The language observer and the legacy lesson enhancement observer do not repeatedly rewrite translated links.
+- Desktop and 390-pixel phone layouts were checked in all three modes. Bilingual button contrast, navigation wrapping and diagram labels were visually reviewed. Original English source transcripts retain an explicit English language attribute for assistive technology.
+
 ## Known limitation
 
 The original 31-page Concept 1: Cell Theory and Organelles PDF/PPT remains absent. The supplied 43-page Cell Biology file is a different lecture and has been added independently. Its arrival does not verify the old lecture's page references. This limitation is visible in the site and coverage report.

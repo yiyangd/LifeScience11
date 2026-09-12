@@ -24,6 +24,7 @@ The lessons contain 84 objective entries. The Cell Biology lecture explicitly li
 - Practice shows feedback immediately. Unit and combined tests delay score and explanations until all questions are submitted.
 - Question order is shuffled while question IDs preserve answer alignment.
 - Study marks, saved attempts, original practice answers, and mistakes persist in this browser using localStorage. They do not sync between devices or browsers.
+- The course homepage, all three lessons, activities, practice and assessments offer English, Chinese and bilingual modes. The selected language is remembered in this browser and shared across lessons. Changing language preserves answers, activity state and study progress.
 - The seven remaining curriculum topics are clearly marked as pending.
 - Cell Biology includes six interactive activities: a cell-theory timeline, structure/function matching, a secreted-protein route with playback, transport classification, osmosis predictions, and cell surface-area/volume calculations. The course homepage and lesson navigation link to the activity collection.
 - The three sequencing/matching challenges support drag, click or keyboard controls, explanations, retry and saved activity state. Their practice results are separate from the scored quiz bank. Supplemental historical dates are identified and linked to OpenStax.
@@ -36,7 +37,7 @@ The lessons contain 84 objective entries. The Cell Biology lecture explicitly li
 
 See [the readable coverage table](docs/coverage.html) and [the complete mapping](docs/coverage.json). They include all 52 Levels PDF pages and all 43 Cell Biology pages, learning destinations, question IDs, and clarification notes. Cell Biology is a distinct lecture, not the missing 31-page Concept 1 source. Concept 1 page references therefore remain inherited and unverified. No editable original PowerPoint was available.
 
-Original lesson assets, bilingual notes, corrective science notes, and cited sources are retained. The Levels lesson defaults to English and offers Chinese/bilingual display. The existing cell lesson retains its bilingual instruction; the unified assessments use English, matching the course source language.
+Original lesson assets, bilingual notes, corrective science notes, and cited sources are retained. English is the default language. Chinese and bilingual modes translate the readable notes, controls and all 155 scored questions. Source PDF images and extracted source text retain their original language, with translated teaching notes alongside them.
 
 ## Local development
 
@@ -53,9 +54,10 @@ After editing source data or supplemental question banks:
 ```sh
 node scripts/build-data.cjs
 node scripts/verify.cjs
+node scripts/verify-language.cjs
 ```
 
-`course-data.js` and `docs/coverage.*` are generated from the retained lesson data and the question banks in `data/`. Retain generated files when publishing.
+`course-data.js` and `docs/coverage.*` are generated from the retained lesson data and the question banks in `data/`. The build also generates `shared/zh-data.js` from the existing bilingual material and translation files in `data/`. Retain generated files when publishing. Language changes affect presentation only; question IDs, answer keys and stored progress remain shared.
 
 ## Deployment
 

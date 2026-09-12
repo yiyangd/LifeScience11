@@ -12,7 +12,7 @@ function enhance(){if(unit==='levels'){
  if(['#hierarchy','#life-processes'].includes(location.hash)){const el=document.getElementById(location.hash.slice(1));if(el&&!el.dataset.scrolled){el.dataset.scrolled='yes';el.scrollIntoView();}}
  }else{
  points.forEach(p=>addTools(document.getElementById('fact-'+p.key),p));
- main.querySelectorAll('.fact-test').forEach(a=>{const fact=a.closest('.fact'),p=points.find(p=>fact?.id==='fact-'+p.key);if(p){const href=`${root}index.html#practice/cells/${p.key}`;if(a.getAttribute('href')!==href)a.setAttribute('href',href);if(a.textContent!=='Practise this objective')a.textContent='Practise this objective';}});
+ main.querySelectorAll('.fact-test').forEach(a=>{const fact=a.closest('.fact'),p=points.find(p=>fact?.id==='fact-'+p.key);if(p){const href=`${root}index.html#practice/cells/${p.key}`;if(a.getAttribute('href')!==href)a.setAttribute('href',href);if(a.textContent!=='Practise this objective'&&!a.querySelector('.ls-localized[data-english="Practise this objective"]'))a.textContent='Practise this objective';}});
  }}
 document.addEventListener('click',e=>{const b=e.target.closest('[data-studied]');if(!b)return;const id=b.dataset.studied,studied=!S.read().read[id];S.mark(id,studied);document.querySelectorAll(`[data-studied="${id}"]`).forEach(el=>{el.setAttribute('aria-pressed',String(studied));el.textContent=studied?'✓ Studied':'Mark as studied';});});
 const observer=new MutationObserver(enhance);observer.observe(main,{childList:true,subtree:true});enhance();

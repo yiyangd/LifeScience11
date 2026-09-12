@@ -1,5 +1,6 @@
 const state={view:'explore',level:0,type:'plant',lang:'en',quizMode:'photo',quizIndex:0,photoAnswers:{},conceptAnswers:{},finished:false,quizPool:null};
 const remembered=CourseStore.read().legacy?.levels;if(remembered){for(const key of ['lang','quizMode','quizIndex','photoAnswers','conceptAnswers','finished','quizPool'])if(Object.hasOwn(remembered,key))state[key]=remembered[key];}
+if(['en','zh','both'].includes(CourseStore.read().language))state.lang=CourseStore.read().language;
 const main=document.getElementById('main');
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const t=(zh,en)=>`<span class="zh">${zh}</span><span class="en">${en}</span>`;
@@ -64,7 +65,7 @@ function renderPractice(){
  main.querySelector('[data-restart]')?.addEventListener('click',()=>resetQuiz());main.querySelector('[data-review]')?.addEventListener('click',()=>resetQuiz(true));
 }
 document.getElementById('language').value=state.lang;
-document.getElementById('language').onchange=e=>{state.lang=e.target.value;CourseStore.update(s=>{s.legacy??={};s.legacy.levels={...(s.legacy.levels||{}),lang:state.lang};});render()};
+document.getElementById('language').onchange=e=>{state.lang=e.target.value;CourseStore.update(s=>{s.language=state.lang;s.legacy??={};s.legacy.levels={...(s.legacy.levels||{}),lang:state.lang};});render()};
 function applyLessonHash(){const v=location.hash.slice(1);if(v.startsWith('level-')){const i=LEVELS.findIndex(l=>l.id===v.slice(6));state.level=i>=0?i:0;state.view='explore';}else if(v.startsWith('photo-')){state.view='practice';state.quizMode='photo';state.quizPool=null;state.finished=false;state.quizIndex=Math.max(0,PHOTO_ITEMS.findIndex(p=>p.page===Number(v.slice(6))));}else if(['hierarchy','life-processes'].includes(v)){state.view='notes';}else state.view=['explore','practice','notes'].includes(v)?v:'explore';render();}
 window.addEventListener('hashchange',applyLessonHash);applyLessonHash();
 // Progressive enhancement: the same quiz action is available in supporting browsers.
