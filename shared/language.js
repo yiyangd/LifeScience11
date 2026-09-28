@@ -12,6 +12,9 @@
   const t=s=>tr(s)||s;
   const rules=[
     [/^(\d+) learning objectives · (\d+) questions · (\d+) source pages$/, (a,b,c)=>`${a} 个知识点 · ${b} 道题 · ${c} 页原课件`],
+    [/^Cell Cycle and Cancer · PDF page (\d+) of 25 ·$/, n=>`细胞周期与癌症 · PDF 第 ${n} 页，共 25 页 ·`],
+    [/^Original source · page (\d+) of 25$/, n=>`原课件第 ${n} 页，共 25 页`],
+    [/^QUESTION (\d+) \/ (\d+) · PDF p\. (.+)$/, (a,b,p)=>`第 ${a} 题，共 ${b} 题 · PDF 第 ${p} 页`],
     [/^(.+) · PDF p\. (.+)$/, (a,b)=>`${t(a)} · PDF 第 ${b} 页`],
     [/^PDF pages (.+) · (\d+) objectives$/, (a,b)=>`PDF 第 ${a} 页 · ${b} 个知识点`],
     [/^PDF p\. (.+)$/, a=>`PDF 第 ${a} 页`],
