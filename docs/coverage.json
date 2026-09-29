@@ -1,15 +1,16 @@
 {
-  "countingRule": "Each lesson keeps its complete learning objectives (84 lesson-level entries). Repeated named cell/structure concepts explicitly linked between Cell Biology and Concept 1 count once in the course total: 61 distinct concepts. Lesson-specific details and questions remain separate. Definitions, functions and examples are grouped into objectives rather than counted as individual factual statements.",
+  "countingRule": "Each lesson keeps its complete learning objectives (101 lesson-level entries). Repeated named cell/structure concepts explicitly linked between Cell Biology and Concept 1 count once; the Cell Cycle and Cancer lecture contributes 17 additional distinct concepts, for 78 distinct concepts in total. Lesson-specific details and questions remain separate. Definitions, functions and examples are grouped into objectives rather than counted as individual factual statements.",
   "counts": {
-    "lessonObjectives": 84,
-    "distinctConcepts": 61,
-    "scoredQuestions": 155,
+    "lessonObjectives": 101,
+    "distinctConcepts": 78,
+    "scoredQuestions": 182,
     "discussions": 2
   },
   "sourceStatus": {
     "levels": "Verified against the supplied 52-page Levels PDF.",
     "biology": "Verified against the supplied 43-page Cell Biology PDF. Distinct from the 31-page Concept 1 lecture. All page images and extracted text retained; teaching corrections documented.",
-    "cells": "Original 31-page Concept 1 PDF/PPT still missing. Its page references remain inherited and unverified; the new Cell Biology file is a different lecture."
+    "cells": "Original 31-page Concept 1 PDF/PPT still missing. Its page references remain inherited and unverified; the new Cell Biology file is a different lecture.",
+    "cycle": "Verified against the supplied 25-page Concept 3 Notes - Cell Cycle and Cancer PDF. Original page images are retained; page 19 contains no readable teaching content."
   },
   "knowledge": [
     {
@@ -527,6 +528,220 @@
         "cells-original-10"
       ],
       "sourceVerified": false
+    },
+    {
+      "unit": "cycle",
+      "sourcePages": "2, 3",
+      "pointId": "cycle-development",
+      "canonical": "cycle-development",
+      "title": "From zygote to specialized cells",
+      "website": "units/cycle/index.html#point-development",
+      "questions": [
+        "cycle-development-1",
+        "cycle-development-2"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "cycle",
+      "sourcePages": "4, 5",
+      "pointId": "cycle-stem-cells",
+      "canonical": "cycle-stem-cells",
+      "title": "Stem cells and differentiation",
+      "website": "units/cycle/index.html#point-stem-cells",
+      "questions": [
+        "cycle-stem-cells-1",
+        "cycle-stem-cells-2"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "cycle",
+      "sourcePages": "6, 10",
+      "pointId": "cycle-cycle-purpose",
+      "canonical": "cycle-cycle-purpose",
+      "title": "The cell cycle",
+      "website": "units/cycle/index.html#point-cycle-purpose",
+      "questions": [
+        "cycle-cycle-purpose-1",
+        "cycle-cycle-purpose-2"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "cycle",
+      "sourcePages": "7, 10",
+      "pointId": "cycle-interphase",
+      "canonical": "cycle-interphase",
+      "title": "Interphase: G1, S and G2",
+      "website": "units/cycle/index.html#point-interphase",
+      "questions": [
+        "cycle-interphase-1",
+        "cycle-interphase-2"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "cycle",
+      "sourcePages": "8, 9",
+      "pointId": "cycle-chromosomes",
+      "canonical": "cycle-chromosomes",
+      "title": "Chromosomes and chromatids",
+      "website": "units/cycle/index.html#point-chromosomes",
+      "questions": [
+        "cycle-chromosomes-1",
+        "cycle-chromosomes-2"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "cycle",
+      "sourcePages": "11, 12",
+      "pointId": "cycle-mitosis-overview",
+      "canonical": "cycle-mitosis-overview",
+      "title": "Mitosis: the sequence",
+      "website": "units/cycle/index.html#point-mitosis-overview",
+      "questions": [
+        "cycle-mitosis-overview-1"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "cycle",
+      "sourcePages": "12, 13",
+      "pointId": "cycle-prophase",
+      "canonical": "cycle-prophase",
+      "title": "Prophase",
+      "website": "units/cycle/index.html#point-prophase",
+      "questions": [
+        "cycle-prophase-1"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "cycle",
+      "sourcePages": "12, 14",
+      "pointId": "cycle-metaphase",
+      "canonical": "cycle-metaphase",
+      "title": "Metaphase",
+      "website": "units/cycle/index.html#point-metaphase",
+      "questions": [
+        "cycle-metaphase-1"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "cycle",
+      "sourcePages": "12, 15",
+      "pointId": "cycle-anaphase",
+      "canonical": "cycle-anaphase",
+      "title": "Anaphase",
+      "website": "units/cycle/index.html#point-anaphase",
+      "questions": [
+        "cycle-anaphase-1"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "cycle",
+      "sourcePages": "12, 16",
+      "pointId": "cycle-telophase",
+      "canonical": "cycle-telophase",
+      "title": "Telophase",
+      "website": "units/cycle/index.html#point-telophase",
+      "questions": [
+        "cycle-telophase-1"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "cycle",
+      "sourcePages": "12, 17",
+      "pointId": "cycle-cytokinesis",
+      "canonical": "cycle-cytokinesis",
+      "title": "Cytokinesis in animal and plant cells",
+      "website": "units/cycle/index.html#point-cytokinesis",
+      "questions": [
+        "cycle-cytokinesis-1"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "cycle",
+      "sourcePages": "18",
+      "pointId": "cycle-division-rates",
+      "canonical": "cycle-division-rates",
+      "title": "Cell division, growth and repair",
+      "website": "units/cycle/index.html#point-division-rates",
+      "questions": [
+        "cycle-division-rates-1"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "cycle",
+      "sourcePages": "20, 21",
+      "pointId": "cycle-cycle-regulation",
+      "canonical": "cycle-cycle-regulation",
+      "title": "Cell-cycle regulation and checkpoints",
+      "website": "units/cycle/index.html#point-cycle-regulation",
+      "questions": [
+        "cycle-cycle-regulation-1",
+        "cycle-cycle-regulation-2"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "cycle",
+      "sourcePages": "22",
+      "pointId": "cycle-apoptosis",
+      "canonical": "cycle-apoptosis",
+      "title": "Apoptosis: programmed cell death",
+      "website": "units/cycle/index.html#point-apoptosis",
+      "questions": [
+        "cycle-apoptosis-1",
+        "cycle-apoptosis-2"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "cycle",
+      "sourcePages": "23",
+      "pointId": "cycle-cancer",
+      "canonical": "cycle-cancer",
+      "title": "Cancer and tumors",
+      "website": "units/cycle/index.html#point-cancer",
+      "questions": [
+        "cycle-cancer-1",
+        "cycle-cancer-2"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "cycle",
+      "sourcePages": "23, 24",
+      "pointId": "cycle-tumors",
+      "canonical": "cycle-tumors",
+      "title": "Benign and malignant tumors",
+      "website": "units/cycle/index.html#point-tumors",
+      "questions": [
+        "cycle-tumors-1",
+        "cycle-tumors-2"
+      ],
+      "sourceVerified": true
+    },
+    {
+      "unit": "cycle",
+      "sourcePages": "25",
+      "pointId": "cycle-cancer-causes",
+      "canonical": "cycle-cancer-causes",
+      "title": "DNA changes and cancer risk",
+      "website": "units/cycle/index.html#point-cancer-causes",
+      "questions": [
+        "cycle-cancer-causes-1",
+        "cycle-cancer-causes-2"
+      ],
+      "sourceVerified": true
     },
     {
       "unit": "biology",
@@ -2465,6 +2680,329 @@
           "text": "The source ends with divide or die. Treat this as a simplified illustration of growth limits, not a universal outcome: cells can stop growing or use shapes and structures that improve exchange."
         }
       ]
+    },
+    {
+      "unit": "cycle",
+      "page": 1,
+      "points": [],
+      "website": "units/cycle/index.html#source-1",
+      "questions": [],
+      "status": "Verified against supplied 25-page PDF"
+    },
+    {
+      "unit": "cycle",
+      "page": 2,
+      "points": [
+        "cycle-development"
+      ],
+      "website": "units/cycle/index.html#source-2",
+      "questions": [
+        "cycle-development-1",
+        "cycle-development-2"
+      ],
+      "status": "Verified against supplied 25-page PDF"
+    },
+    {
+      "unit": "cycle",
+      "page": 3,
+      "points": [
+        "cycle-development"
+      ],
+      "website": "units/cycle/index.html#source-3",
+      "questions": [
+        "cycle-development-1",
+        "cycle-development-2"
+      ],
+      "status": "Verified against supplied 25-page PDF"
+    },
+    {
+      "unit": "cycle",
+      "page": 4,
+      "points": [
+        "cycle-stem-cells"
+      ],
+      "website": "units/cycle/index.html#source-4",
+      "questions": [
+        "cycle-stem-cells-1",
+        "cycle-stem-cells-2"
+      ],
+      "status": "Verified against supplied 25-page PDF"
+    },
+    {
+      "unit": "cycle",
+      "page": 5,
+      "points": [
+        "cycle-stem-cells"
+      ],
+      "website": "units/cycle/index.html#source-5",
+      "questions": [
+        "cycle-stem-cells-1",
+        "cycle-stem-cells-2"
+      ],
+      "status": "Verified against supplied 25-page PDF"
+    },
+    {
+      "unit": "cycle",
+      "page": 6,
+      "points": [
+        "cycle-cycle-purpose"
+      ],
+      "website": "units/cycle/index.html#source-6",
+      "questions": [
+        "cycle-cycle-purpose-1",
+        "cycle-cycle-purpose-2"
+      ],
+      "status": "Verified against supplied 25-page PDF"
+    },
+    {
+      "unit": "cycle",
+      "page": 7,
+      "points": [
+        "cycle-interphase"
+      ],
+      "website": "units/cycle/index.html#source-7",
+      "questions": [
+        "cycle-interphase-1",
+        "cycle-interphase-2"
+      ],
+      "status": "Verified against supplied 25-page PDF"
+    },
+    {
+      "unit": "cycle",
+      "page": 8,
+      "points": [
+        "cycle-chromosomes"
+      ],
+      "website": "units/cycle/index.html#source-8",
+      "questions": [
+        "cycle-chromosomes-1",
+        "cycle-chromosomes-2"
+      ],
+      "status": "Verified against supplied 25-page PDF"
+    },
+    {
+      "unit": "cycle",
+      "page": 9,
+      "points": [
+        "cycle-chromosomes"
+      ],
+      "website": "units/cycle/index.html#source-9",
+      "questions": [
+        "cycle-chromosomes-1",
+        "cycle-chromosomes-2"
+      ],
+      "status": "Verified against supplied 25-page PDF"
+    },
+    {
+      "unit": "cycle",
+      "page": 10,
+      "points": [
+        "cycle-cycle-purpose",
+        "cycle-interphase"
+      ],
+      "website": "units/cycle/index.html#source-10",
+      "questions": [
+        "cycle-cycle-purpose-1",
+        "cycle-cycle-purpose-2",
+        "cycle-interphase-1",
+        "cycle-interphase-2"
+      ],
+      "status": "Verified against supplied 25-page PDF"
+    },
+    {
+      "unit": "cycle",
+      "page": 11,
+      "points": [
+        "cycle-mitosis-overview"
+      ],
+      "website": "units/cycle/index.html#source-11",
+      "questions": [
+        "cycle-mitosis-overview-1"
+      ],
+      "status": "Verified against supplied 25-page PDF"
+    },
+    {
+      "unit": "cycle",
+      "page": 12,
+      "points": [
+        "cycle-mitosis-overview",
+        "cycle-prophase",
+        "cycle-metaphase",
+        "cycle-anaphase",
+        "cycle-telophase",
+        "cycle-cytokinesis"
+      ],
+      "website": "units/cycle/index.html#source-12",
+      "questions": [
+        "cycle-mitosis-overview-1",
+        "cycle-prophase-1",
+        "cycle-metaphase-1",
+        "cycle-anaphase-1",
+        "cycle-telophase-1",
+        "cycle-cytokinesis-1"
+      ],
+      "status": "Verified against supplied 25-page PDF"
+    },
+    {
+      "unit": "cycle",
+      "page": 13,
+      "points": [
+        "cycle-prophase"
+      ],
+      "website": "units/cycle/index.html#source-13",
+      "questions": [
+        "cycle-prophase-1"
+      ],
+      "status": "Verified against supplied 25-page PDF"
+    },
+    {
+      "unit": "cycle",
+      "page": 14,
+      "points": [
+        "cycle-metaphase"
+      ],
+      "website": "units/cycle/index.html#source-14",
+      "questions": [
+        "cycle-metaphase-1"
+      ],
+      "status": "Verified against supplied 25-page PDF"
+    },
+    {
+      "unit": "cycle",
+      "page": 15,
+      "points": [
+        "cycle-anaphase"
+      ],
+      "website": "units/cycle/index.html#source-15",
+      "questions": [
+        "cycle-anaphase-1"
+      ],
+      "status": "Verified against supplied 25-page PDF"
+    },
+    {
+      "unit": "cycle",
+      "page": 16,
+      "points": [
+        "cycle-telophase"
+      ],
+      "website": "units/cycle/index.html#source-16",
+      "questions": [
+        "cycle-telophase-1"
+      ],
+      "status": "Verified against supplied 25-page PDF"
+    },
+    {
+      "unit": "cycle",
+      "page": 17,
+      "points": [
+        "cycle-cytokinesis"
+      ],
+      "website": "units/cycle/index.html#source-17",
+      "questions": [
+        "cycle-cytokinesis-1"
+      ],
+      "status": "Verified against supplied 25-page PDF"
+    },
+    {
+      "unit": "cycle",
+      "page": 18,
+      "points": [
+        "cycle-division-rates"
+      ],
+      "website": "units/cycle/index.html#source-18",
+      "questions": [
+        "cycle-division-rates-1"
+      ],
+      "status": "Verified against supplied 25-page PDF"
+    },
+    {
+      "unit": "cycle",
+      "page": 19,
+      "points": [],
+      "website": "units/cycle/index.html#source-19",
+      "questions": [],
+      "status": "No readable teaching content in source slide"
+    },
+    {
+      "unit": "cycle",
+      "page": 20,
+      "points": [
+        "cycle-cycle-regulation"
+      ],
+      "website": "units/cycle/index.html#source-20",
+      "questions": [
+        "cycle-cycle-regulation-1",
+        "cycle-cycle-regulation-2"
+      ],
+      "status": "Verified against supplied 25-page PDF"
+    },
+    {
+      "unit": "cycle",
+      "page": 21,
+      "points": [
+        "cycle-cycle-regulation"
+      ],
+      "website": "units/cycle/index.html#source-21",
+      "questions": [
+        "cycle-cycle-regulation-1",
+        "cycle-cycle-regulation-2"
+      ],
+      "status": "Verified against supplied 25-page PDF"
+    },
+    {
+      "unit": "cycle",
+      "page": 22,
+      "points": [
+        "cycle-apoptosis"
+      ],
+      "website": "units/cycle/index.html#source-22",
+      "questions": [
+        "cycle-apoptosis-1",
+        "cycle-apoptosis-2"
+      ],
+      "status": "Verified against supplied 25-page PDF"
+    },
+    {
+      "unit": "cycle",
+      "page": 23,
+      "points": [
+        "cycle-cancer",
+        "cycle-tumors"
+      ],
+      "website": "units/cycle/index.html#source-23",
+      "questions": [
+        "cycle-cancer-1",
+        "cycle-cancer-2",
+        "cycle-tumors-1",
+        "cycle-tumors-2"
+      ],
+      "status": "Verified against supplied 25-page PDF"
+    },
+    {
+      "unit": "cycle",
+      "page": 24,
+      "points": [
+        "cycle-tumors"
+      ],
+      "website": "units/cycle/index.html#source-24",
+      "questions": [
+        "cycle-tumors-1",
+        "cycle-tumors-2"
+      ],
+      "status": "Verified against supplied 25-page PDF"
+    },
+    {
+      "unit": "cycle",
+      "page": 25,
+      "points": [
+        "cycle-cancer-causes"
+      ],
+      "website": "units/cycle/index.html#source-25",
+      "questions": [
+        "cycle-cancer-causes-1",
+        "cycle-cancer-causes-2"
+      ],
+      "status": "Verified against supplied 25-page PDF"
     }
   ]
 }

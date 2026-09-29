@@ -11,11 +11,12 @@ Public site: https://yiyangd.github.io/LifeScience11/
 | Levels of Organization Notes | 10 | 59 | Checked against the supplied 52-page PDF |
 | Cell Biology | 47 | 59 | Checked against the supplied 43-page PDF |
 | Concept 1 · Cell Theory and Organelles | 27 | 37 | Existing website checked; original 31-page source missing |
-| Combined, distinct concepts | 61 | 155 | See counting rule and limitations below |
+| Concept 3 · Cell Cycle and Cancer | 17 | 27 | Checked against the supplied 25-page PDF |
+| Combined, distinct concepts | 78 | 182 | See counting rule and limitations below |
 
 Two ambiguous original image exercises (Levels PDF pages 38 and 50) remain as unscored discussions in the original interactive practice. They are excluded from unit and combined test scores. All 43 original picture exercises and eight existing concept questions are retained. All ten original cell questions are retained, with 27 additional questions checking individual objectives.
 
-The lessons contain 84 objective entries. The Cell Biology lecture explicitly links 23 repeated cell/structure concepts to Concept 1, giving 61 distinct named concepts after deduplication. Each lesson retains its complete details, examples and questions. These are grouped learning objectives, not counts of every individual factual statement. Shared-concept IDs are listed in the coverage table.
+The lessons contain 101 objective entries. The Cell Biology lecture explicitly links 23 repeated cell/structure concepts to Concept 1; the Cell Cycle lecture adds 17 distinct concepts, giving 78 distinct named concepts after deduplication. Each lesson retains its complete details, examples and questions. These are grouped learning objectives, not counts of every individual factual statement. Shared-concept IDs are listed in the coverage table.
 
 ## Learning and assessment
 
@@ -24,20 +25,21 @@ The lessons contain 84 objective entries. The Cell Biology lecture explicitly li
 - Practice shows feedback immediately. Unit and combined tests delay score and explanations until all questions are submitted.
 - Question order is shuffled while question IDs preserve answer alignment.
 - Study marks, saved attempts, original practice answers, and mistakes persist in this browser using localStorage. They do not sync between devices or browsers.
-- The course homepage, all three lessons, activities, practice and assessments offer English, Chinese and bilingual modes. The selected language is remembered in this browser and shared across lessons. Changing language preserves answers, activity state and study progress.
-- The seven remaining curriculum topics are clearly marked as pending.
+- The course homepage, all four lessons, activities, practice and assessments offer English, Chinese and bilingual modes. The selected language is remembered in this browser and shared across lessons. Changing language preserves answers, activity state and study progress.
+- The six remaining curriculum topics are clearly marked as pending.
 - Cell Biology includes six interactive activities: a cell-theory timeline, structure/function matching, a secreted-protein route with playback, transport classification, osmosis predictions, and cell surface-area/volume calculations. The course homepage and lesson navigation link to the activity collection.
 - The three sequencing/matching challenges support drag, click or keyboard controls, explanations, retry and saved activity state. Their practice results are separate from the scored quiz bank. Supplemental historical dates are identified and linked to OpenStax.
 - Its cell atlas reuses the companion lesson's animal and plant diagrams with 15 selectable structure markers. The dark navigation, figure-and-notes layout, and quiz cards follow the existing course style.
 - All 47 Cell Biology objective pages show their source figures beside readable notes and include an inline quiz. These use the same 59 question IDs as the unit test, with saved drafts, checked answers, explanations and shared mistake review.
 - Its 43 source pages retain the original images and extracted text, with readable teaching notes and explicit corrections for source inaccuracies.
+- Concept 3 includes all 25 original slide images, 17 tested learning objectives, 27 quiz questions, a mitosis-order activity and an original-PDF viewer.
 - When a combined test grows with new course material, previously saved answers are preserved and new questions are appended.
 
 ## Source coverage and limitations
 
-See [the readable coverage table](docs/coverage.html) and [the complete mapping](docs/coverage.json). They include all 52 Levels PDF pages and all 43 Cell Biology pages, learning destinations, question IDs, and clarification notes. Cell Biology is a distinct lecture, not the missing 31-page Concept 1 source. Concept 1 page references therefore remain inherited and unverified. No editable original PowerPoint was available.
+See [the readable coverage table](docs/coverage.html) and [the complete mapping](docs/coverage.json). They include all 52 Levels PDF pages, all 43 Cell Biology pages and all 25 Cell Cycle and Cancer pages, learning destinations, question IDs, and clarification notes. Cell Biology is a distinct lecture, not the missing 31-page Concept 1 source. Concept 1 page references therefore remain inherited and unverified. No editable original PowerPoint was available.
 
-Original lesson assets, bilingual notes, corrective science notes, and cited sources are retained. English is the default language. Chinese and bilingual modes translate the readable notes, controls and all 155 scored questions. Source PDF images and extracted source text retain their original language, with translated teaching notes alongside them.
+Original lesson assets, bilingual notes, corrective science notes, and cited sources are retained. English is the default language. Chinese and bilingual modes translate the readable notes, controls and all 182 scored questions. Source slide images retain their original language, with translated teaching notes alongside them.
 
 ## Local development
 
